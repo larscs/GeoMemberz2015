@@ -1,0 +1,42 @@
+        .selectednor {
+            height:16px;
+            width:22px;
+            background-image:url(/img/Norway_color.png);
+            border:none;
+            cursor:default;
+            display:inline-block;
+        }
+        .selectednor:hover {
+            background-image:url(/img/Norway_color.png);
+        }
+        .selecteduk {
+            height:16px;
+            width:32px;
+            background-image:url(/img/UK_color.png);
+            border:none;
+            cursor:default;
+            display:inline-block;
+        }
+        .selecteduk:hover {
+            background-image:url(/img/UK_color.png);
+        }
+        .unselectednor {
+            height:16px;
+            width:22px;
+            background-image:url(/img/Norway_mono.png);
+            border:none;
+            display:inline-block;
+        }
+        .unselectednor:hover {
+            background-image:url(/img/Norway_color.png);
+        }
+        .unselecteduk {
+            height:16px;
+            width:32px;
+            background-image:url(/img/UK_mono.png);
+            border:none;  
+            display:inline-block;
+        }
+        .unselecteduk:hover {
+            background-image:url(/img/UK_color.png);
+        }    

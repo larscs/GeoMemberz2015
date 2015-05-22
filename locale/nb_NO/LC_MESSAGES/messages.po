@@ -1,0 +1,3008 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Member system\n"
+"POT-Creation-Date: 2015-05-15 00:40+0100\n"
+"PO-Revision-Date: 2015-05-15 00:45+0100\n"
+"Last-Translator: Lars Christian Schreiner <larscs@schreinerland.com>\n"
+"Language-Team: Lars Christian Schreiner <larscs@schreinerland.com>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext\n"
+"X-Poedit-SearchPath-0: ..\\..\\..\n"
+
+#: ..\..\../404.php:3
+msgid "404 Not found"
+msgstr "404 Ikke funnet"
+
+#: ..\..\../404.php:4
+msgid "The page you requested cannot be found."
+msgstr "Finner ikke den forespurte siden."
+
+#: ..\..\../access.php:15 ..\..\../member.php:88
+#, php-format
+msgid "Hi, %s!"
+msgstr "Hei, %s!"
+
+#: ..\..\../access.php:16
+#, php-format
+msgid "You now have access to the member forums in %s."
+msgstr "Du har nå tilgang til medlemsforaene på %s."
+
+#: ..\..\../access.php:17
+msgid "You'll find them under the subforum «Foreningen» on {{LINK}}."
+msgstr "Du finner dem under underforumet «Foreningen» på {{LINK}}."
+
+#: ..\..\../access.php:18 ..\..\../classes/Members.php:200
+#: ..\..\../member.php:94 ..\..\../newmember.php:51 ..\..\../newmember.php:69
+#: ..\..\../register.php:43 ..\..\../register.php:60
+msgid "Best regards,"
+msgstr "Med hilsen"
+
+#: ..\..\../access.php:24
+#, php-format
+msgid "Member access on the %s forum"
+msgstr "Medlemstilgang til %s-forumet"
+
+#: ..\..\../changelog.php:7 ..\..\../chgvalidate.php:30
+#: ..\..\../dashboard.php:6 ..\..\../dosendmail.php:32
+#: ..\..\../errors/error.php:2 ..\..\../errors/top.php:2
+#: ..\..\../feepayments.php:57 ..\..\../feeperiod.php:130
+#: ..\..\../feeperiod.php:263 ..\..\../feeperiod.php:269
+#: ..\..\../feeperiods.php:22 ..\..\../forgotpass.php:29 ..\..\../login.php:24
+#: ..\..\../member.php:134 ..\..\../member.php:450 ..\..\../members.php:32
+#: ..\..\../newmember.php:95 ..\..\../newmember.php:346
+#: ..\..\../passchanged.php:4 ..\..\../passchangemailsent.php:4
+#: ..\..\../privacy.php:4 ..\..\../register.php:83 ..\..\../register.php:278
+#: ..\..\../sendmail.php:8 ..\..\../setpass.php:67 ..\..\../thankyou.php:4
+#: ..\..\../tou.php:4 ..\..\../validate.php:24
+msgid "en"
+msgstr "nb"
+
+#: ..\..\../changelog.php:15 ..\..\../chgvalidate.php:38
+#: ..\..\../dashboard.php:14 ..\..\../errors/error.php:10
+#: ..\..\../errors/top.php:10 ..\..\../feepayments.php:65
+#: ..\..\../feeperiod.php:138 ..\..\../feeperiods.php:30
+#: ..\..\../forgotpass.php:37 ..\..\../login.php:32 ..\..\../member.php:142
+#: ..\..\../members.php:40 ..\..\../newmember.php:103
+#: ..\..\../passchanged.php:12 ..\..\../passchangemailsent.php:12
+#: ..\..\../privacy.php:12 ..\..\../register.php:91 ..\..\../sendmail.php:16
+#: ..\..\../setpass.php:75 ..\..\../thankyou.php:12 ..\..\../tou.php:12
+#: ..\..\../validate.php:32 ..\..\../viewmember.php:15
+msgid "en-US"
+msgstr "nb-NO"
+
+#: ..\..\../changelog.php:18 ..\..\../chgvalidate.php:41
+#: ..\..\../dashboard.php:17 ..\..\../errors/error.php:13
+#: ..\..\../errors/top.php:13 ..\..\../feepayments.php:68
+#: ..\..\../feeperiod.php:141 ..\..\../feeperiods.php:33
+#: ..\..\../forgotpass.php:40 ..\..\../install/install3.php:30
+#: ..\..\../login.php:35 ..\..\../member.php:145 ..\..\../members.php:43
+#: ..\..\../newmember.php:106 ..\..\../passchanged.php:15
+#: ..\..\../passchangemailsent.php:15 ..\..\../privacy.php:15
+#: ..\..\../register.php:94 ..\..\../sendmail.php:19 ..\..\../setpass.php:78
+#: ..\..\../thankyou.php:15 ..\..\../tou.php:15 ..\..\../validate.php:35
+#: ..\..\../viewmember.php:18
+#, php-format
+msgid "%s Member Pages"
+msgstr "Medlemssider for %s"
+
+#: ..\..\../changelog.php:50 ..\..\../includes/navmenu.php:15
+msgid "Change log"
+msgstr "Endringslogg"
+
+#: ..\..\../changelog.php:55
+msgid ""
+"These are the up to 250 latest database changes performed in the system. The "
+"newest are on top."
+msgstr ""
+"Dette er de inntil 250 nyeste endringene i databasen i systemet. De nyeste "
+"er øverst."
+
+#: ..\..\../changelog.php:58
+msgid "Time"
+msgstr "Klokkeslett"
+
+#: ..\..\../changelog.php:59
+msgid "User"
+msgstr "Bruker"
+
+#: ..\..\../changelog.php:60
+msgid "Table"
+msgstr "Tabell"
+
+#: ..\..\../changelog.php:61
+msgid "Row"
+msgstr "Rad"
+
+#: ..\..\../changelog.php:62
+msgid "Field"
+msgstr "Felt"
+
+#: ..\..\../changelog.php:63 ..\..\../feeperiods.php:83
+msgid "Action"
+msgstr "Handling"
+
+#: ..\..\../changelog.php:64
+msgid "Old value"
+msgstr "Gammel verdi"
+
+#: ..\..\../changelog.php:65
+msgid "New value"
+msgstr "Ny verdi"
+
+#: ..\..\../changelog.php:75
+msgid "IP address: "
+msgstr "IP-adresse:"
+
+#: ..\..\../chgvalidate.php:9 ..\..\../chgvalidate.php:16
+#: ..\..\../chgvalidate.php:20 ..\..\../dosendmail.php:9
+#: ..\..\../dosendmail.php:12 ..\..\../dosendmail.php:15
+#: ..\..\../dosendmail.php:18 ..\..\../errors/top.php:34
+#: ..\..\../feeperiod.php:88 ..\..\../feeperiod.php:93
+#: ..\..\../feeperiods.php:17 ..\..\../freeze.php:6 ..\..\../freeze.php:7
+#: ..\..\../freeze.php:8 ..\..\../member.php:29 ..\..\../setpass.php:8
+#: ..\..\../setpass.php:52 ..\..\../setpass.php:56 ..\..\../setpass.php:60
+#: ..\..\../unfreeze.php:6 ..\..\../unfreeze.php:7 ..\..\../unfreeze.php:8
+#: ..\..\../validate.php:9 ..\..\../validate.php:16 ..\..\../viewmember.php:5
+#: ..\..\../viewmember.php:6 ..\..\../viewmember.php:7
+msgid "Error"
+msgstr "Feil"
+
+#: ..\..\../chgvalidate.php:9 ..\..\../setpass.php:8 ..\..\../validate.php:9
+msgid "Hash missing.<br/>If this error persists, please contact us on "
+msgstr "Hash mangler.<br/>Hvis dette problemet vedvarer, kontakter du oss på "
+
+#: ..\..\../chgvalidate.php:9 ..\..\../chgvalidate.php:16
+msgid "Invalid hash when changing e-mail address"
+msgstr "Ugyldig hash ved endring av e-postadresse"
+
+#: ..\..\../chgvalidate.php:16 ..\..\../validate.php:16
+msgid ""
+"Invalid hash. The validation link may have been used already.<br/>If this "
+"error persists, please contact us on "
+msgstr ""
+"Ugyldig hash. Valideringslenken er kanskje allerede brukt.<br/>Hvis dette "
+"problemet vedvarer, kontakter du oss på  "
+
+#: ..\..\../chgvalidate.php:20
+msgid ""
+"Missing e-mail address. Something may have gone wrong.<br/>Please contact us "
+"on "
+msgstr "E-postadresse mangler. Noe kan ha gått galt.<br/>Kontakt oss på "
+
+#: ..\..\../chgvalidate.php:20
+msgid "Missing e-mail address when trying to validate"
+msgstr "Manglende e-postadresse ved validering"
+
+#: ..\..\../chgvalidate.php:62 ..\..\../validate.php:56
+msgid "Great!"
+msgstr "Glimmers!"
+
+#: ..\..\../chgvalidate.php:63
+#, php-format
+msgid ""
+"Your e-mail address has been validated. Now you can <a href=\"%slogin.php"
+"\">log in</a>."
+msgstr ""
+"E-postadressen din er validert. Nå kan du <a href=\"%slogin.php\">logge inn</"
+"a>."
+
+#: ..\..\../classes/Database.php:84 ..\..\../classes/Database.php:123
+#: ..\..\../classes/Members.php:123 ..\..\../classes/Members.php:162
+msgid "Fatal error: Duplicate member number found"
+msgstr "Kritisk feil: Fant duplisert medlemsnummer"
+
+#: ..\..\../classes/Members.php:19
+msgid "Cannot connect: "
+msgstr "Kan ikke koble til:"
+
+#: ..\..\../classes/Members.php:195
+#, php-format
+msgid "A password change has been requested from the %s member site."
+msgstr "En passordendring er forespurt fra medlemssidene til %s."
+
+#: ..\..\../classes/Members.php:196
+msgid "Click the link below or copy it into the address field in your browser"
+msgstr ""
+"Klikk på lenken under eller kopier den til adressefeltet i nettleseren din"
+
+#: ..\..\../classes/Members.php:197
+msgid "to change your password."
+msgstr "for å endre passordet."
+
+#: ..\..\../classes/Members.php:199
+msgid ""
+"If you didn't request this password change, you can safely ignore this mail."
+msgstr ""
+"Hvis du ikke har bedt om denne passordendringen, kan du trygt ignorere denne "
+"e-posten."
+
+#: ..\..\../classes/Members.php:206
+#, php-format
+msgid "Password change requested for %s member account"
+msgstr "Passordendring forespurt for konto til %s-medlem"
+
+#: ..\..\../classes/Members.php:491 ..\..\../classes/Members.php:492
+#: ..\..\../classes/Members.php:493
+msgid "%)"
+msgstr " %)"
+
+#: ..\..\../classes/Members.php:557
+msgid "%</span>"
+msgstr " %</span>"
+
+#: ..\..\../classes/Members.php:606 ..\..\../feeperiods.php:80
+msgid "Paid"
+msgstr "Innbetalt"
+
+#: ..\..\../classes/Members.php:606 ..\..\../config.php:24
+#: ..\..\../core/init.php:21
+msgid " $"
+msgstr " kr. "
+
+#: ..\..\../classes/Members.php:608
+msgid "Not paid"
+msgstr "Ubetalt"
+
+#: ..\..\../classes/Members.php:795 ..\..\../classes/Members.php:799
+#: ..\..\../classes/Members.php:803 ..\..\../viewmember.php:64
+msgid "(None)"
+msgstr "(Ingen)"
+
+#: ..\..\../classes/Members.php:845
+msgid "<span style=\"color:silver\">(Unregistered)</span>"
+msgstr "<span style=\"color:silver\">(Uregistrert)</span>"
+
+#: ..\..\../classes/Members.php:846
+msgid "(Not determined)"
+msgstr "(Ikke fastslått)"
+
+#: ..\..\../classes/Members.php:848 ..\..\../classes/Members.php:849
+#: ..\..\../classes/Members.php:850 ..\..\../classes/Members.php:851
+#: ..\..\../classes/Members.php:852 ..\..\../classes/Members.php:853
+msgid "<span style=\"color:silver\">(Hash value)</span>"
+msgstr "<span style=\"color:silver\">(Hashverdi)</span> "
+
+#: ..\..\../classes/Members.php:856
+msgid "Update"
+msgstr "Endre"
+
+#: ..\..\../classes/Members.php:860
+msgid "Insert"
+msgstr "Ny"
+
+#: ..\..\../classes/Members.php:864 ..\..\../feeperiods.php:104
+msgid "Delete"
+msgstr "Slett"
+
+#: ..\..\../classes/Session.php:45
+#, php-format
+msgid ""
+"<strong>Error:</strong> Account not yet validated. If you didn't receive the "
+"validation mail, please check your spam filter. Otherwise, contact us on <a "
+"href=\"mailto:%s?subject=%s\">%s</a>"
+msgstr ""
+"<strong>Feil:</strong> Kontoen er ikke validert ennå. Hvis du ikke har "
+"mottatt validerings-e-posten, kan du sjekke i søppelpostfilteret. Hvis den "
+"ikke er der, kontakter du oss på <a href=\"mailto:%s?subject=%s\">%s</a>."
+
+#: ..\..\../classes/Session.php:45
+msgid "Validation mail not received"
+msgstr "Validerings-e-post ikke mottatt"
+
+#: ..\..\../classes/Session.php:60
+msgid "<strong>Error:</strong> Incorrect username or password."
+msgstr "<strong>Feil:</strong> Feil brukernavn eller passord."
+
+#: ..\..\../classes/Validation.php:16
+msgid "Username cannot be empty"
+msgstr "Brukernavn kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:21 ..\..\../classes/Validation.php:25
+msgid "Username already exists. Please choose another username."
+msgstr "Brukernavnet finnes allerede. Velg et annet brukernavn."
+
+#: ..\..\../classes/Validation.php:31
+msgid "Password cannot be empty"
+msgstr "Passord kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:36
+msgid "Repeated password cannot be empty"
+msgstr "Gjenta passord kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:37
+msgid "The passwords don't match"
+msgstr "Passordene er ikke like"
+
+#: ..\..\../classes/Validation.php:42
+msgid "E-mail address cannot be empty"
+msgstr "E-postadresse kan ikke være tom"
+
+#: ..\..\../classes/Validation.php:43
+msgid "This e-mail address is invalid"
+msgstr "Denne e-postadressen er ugyldig"
+
+#: ..\..\../classes/Validation.php:47
+msgid "Geocaching name cannot be empty"
+msgstr "Geocachingnavn kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:51
+msgid "First name cannot be empty"
+msgstr "Fornavn kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:58
+msgid "Last name cannot be empty"
+msgstr "Etternavn kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:62
+msgid "Address cannot be empty"
+msgstr "Adresse kan ikke være tom"
+
+#: ..\..\../classes/Validation.php:66
+msgid "Phone cannot be empty"
+msgstr "Telefonnummer kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:67
+msgid "Phone can only contain spaces, +, ( and )."
+msgstr "Telefonnummer kan bare inneholde mellomrom, +, ( og )."
+
+#: ..\..\../classes/Validation.php:71
+msgid "Birth date cannot be empty"
+msgstr "Fødselsdato kan ikke være tomt"
+
+#: ..\..\../classes/Validation.php:72
+msgid "Birth date cannot be in the future"
+msgstr "Fødselsdato kan ikke være i fremtiden"
+
+#: ..\..\../classes/Validation.php:96
+msgid "<strong>Error:</strong> No username entered."
+msgstr "<strong>Feil:</strong> Brukernavn mangler."
+
+#: ..\..\../classes/Validation.php:99 ..\..\../setpass.php:14
+msgid "<strong>Error:</strong> No password entered."
+msgstr "<strong>Feil:</strong> Passord mangler."
+
+#: ..\..\../classes/Validation.php:106
+msgid ""
+"<strong>Error:</strong> Username cannot be empty or longer than 128 "
+"characters."
+msgstr ""
+"<strong>Feil:</strong> Brukernavnet kan ikke være tomt eller lengre enn 128 "
+"tegn."
+
+#: ..\..\../classes/Validation.php:110
+msgid "<strong>Error:</strong> The e-mail address is not valid."
+msgstr "<strong>Feil:</strong> E-postadrtessen er ikke gyldig."
+
+#: ..\..\../config.php:22 ..\..\../core/init.php:19
+msgid "."
+msgstr ","
+
+#: ..\..\../config.php:23 ..\..\../core/init.php:20
+msgid ","
+msgstr " "
+
+#: ..\..\../config.php:26 ..\..\../core/init.php:22
+msgid "Y-m-d"
+msgstr "d.m.Y"
+
+#: ..\..\../config.php:28 ..\..\../core/init.php:23
+msgid "yyyy-mm-dd"
+msgstr "dd.mm.yyyy"
+
+#: ..\..\../core/init.php:24
+msgid "%"
+msgstr " %"
+
+#: ..\..\../dashboard.php:57
+msgid "Newest members"
+msgstr "Nyeste medlemmer"
+
+#: ..\..\../dashboard.php:60
+msgid "User name"
+msgstr "Brukernavn"
+
+#: ..\..\../dashboard.php:60 ..\..\../member.php:281 ..\..\../member.php:283
+#: ..\..\../newmember.php:236 ..\..\../newmember.php:238
+#: ..\..\../register.php:178 ..\..\../register.php:180
+#: ..\..\../sendmail.php:280 ..\..\../viewmember.php:120
+msgid "Geocaching name"
+msgstr "Geocaching-navn"
+
+#: ..\..\../dashboard.php:60
+msgid "Since"
+msgstr "Siden"
+
+#: ..\..\../dashboard.php:81 ..\..\../feeperiods.php:77
+#: ..\..\../includes/navmenu.php:7 ..\..\../members.php:88
+msgid "Members"
+msgstr "Medlemmer"
+
+#: ..\..\../dashboard.php:85
+msgid "Members:"
+msgstr "Medlemmer:"
+
+#: ..\..\../dashboard.php:86
+msgid "Age 16+"
+msgstr "16+ år"
+
+#: ..\..\../dashboard.php:87
+msgid "Age 8-15"
+msgstr "8-15 år"
+
+#: ..\..\../dashboard.php:88
+msgid "Age 0-7"
+msgstr "0-7 år"
+
+#: ..\..\../dashboard.php:104 ..\..\../dashboard.php:126
+msgid "Membership fees"
+msgstr "Kontingent"
+
+#: ..\..\../dashboard.php:107
+msgid "Membership fees paid"
+msgstr "Kontingent betalt"
+
+#: ..\..\../dashboard.php:115
+msgid "Fee amount"
+msgstr "Kontingentbeløp"
+
+#: ..\..\../dashboard.php:117
+#, php-format
+msgid "Fee payments for «%s»"
+msgstr "Kontingent betalt for «%s»"
+
+#: ..\..\../dashboard.php:118
+msgid "of"
+msgstr "av"
+
+#: ..\..\../dashboard.php:128
+msgid ""
+"No fee periods defined. Go to «Fee periods» in the Navigation bar to define "
+"one."
+msgstr ""
+"Ingen kontingentperioder er definert. Gå til «Kontingentperioder» i "
+"navigasjonsmenyen for å definere en."
+
+#: ..\..\../dashboard.php:145
+#, php-format
+msgid "Paid on %s"
+msgstr "Betalt den %s"
+
+#: ..\..\../dashboard.php:148
+msgid "Unpaid"
+msgstr "Ikke betalt"
+
+#: ..\..\../dashboard.php:149
+#, php-format
+msgid "Please pay kr. %s into %s's account no. %s."
+msgstr "Kontingenten på kr. %s kan betales inn til %ss på bankkontonr. %s."
+
+#: ..\..\../dashboard.php:153
+msgid "My fee"
+msgstr "Min kontingent"
+
+#: ..\..\../dashboard.php:155
+#, php-format
+msgid "My fee status for «%s»:"
+msgstr "Min kontingentstatus for «%s»:"
+
+#: ..\..\../dodosendmail.php:8
+msgid "Preparing mass mailing..."
+msgstr "Forbereder masseutsendelse av e-post ..."
+
+#: ..\..\../dodosendmail.php:75
+msgid "Sending e-mail to "
+msgstr "Sender e-post til "
+
+#: ..\..\../dodosendmail.php:75
+msgid " on "
+msgstr " på "
+
+#: ..\..\../dodosendmail.php:97
+msgid "Mass mailing complete"
+msgstr "Masseutsendelse av e-post fullført"
+
+#: ..\..\../dodosendmail.php:100
+msgid ""
+"<div style=\"color:red;border-bottom: black solid 1px\">The following errors "
+"occurred during mailing:</div>"
+msgstr ""
+"<div style=\"color:red;border-bottom: black solid 1px\">Følgende feil "
+"oppstod under utsending av e-post:</div>"
+
+#: ..\..\../dosendmail.php:9
+msgid "No subject provided"
+msgstr "Intet emne er angitt"
+
+#: ..\..\../dosendmail.php:12
+msgid "No sender provided"
+msgstr "Ingen avsender er angitt"
+
+#: ..\..\../dosendmail.php:15
+msgid "No target group provided"
+msgstr "Ingen målgruppe er angitt"
+
+#: ..\..\../dosendmail.php:18
+msgid "No body text provided"
+msgstr "Ingen meldingstekst er angitt"
+
+#: ..\..\../dosendmail.php:36
+msgid "GeoBergen Member Pages"
+msgstr "Medlemssider for GeoBergen"
+
+#: ..\..\../dosendmail.php:107
+msgid "Sending e-mail"
+msgstr "Sender e-post"
+
+#: ..\..\../feepayments.php:38 ..\..\../feepayments.php:45
+#: ..\..\../feeperiods.php:11 ..\..\../freeze.php:9 ..\..\../member.php:66
+#: ..\..\../member.php:82 ..\..\../member.php:84 ..\..\../member.php:108
+#: ..\..\../newmember.php:32 ..\..\../register.php:29 ..\..\../unfreeze.php:9
+msgid "Database error"
+msgstr "Databasefeil"
+
+#: ..\..\../feepayments.php:38
+msgid "An error ocurred while creating a database record."
+msgstr "Det oppstod en feil under oppretting av en databasepost."
+
+#: ..\..\../feepayments.php:45 ..\..\../freeze.php:9 ..\..\../member.php:66
+#: ..\..\../member.php:82 ..\..\../member.php:84 ..\..\../member.php:108
+#: ..\..\../unfreeze.php:9
+msgid "An error ocurred while updating a database record."
+msgstr "Det oppstod en feil under oppdatering av en databasepost."
+
+#: ..\..\../feepayments.php:115 ..\..\../includes/navmenu.php:13
+msgid "Fee payments"
+msgstr "Kontingentbetaling"
+
+#: ..\..\../feepayments.php:119
+msgid "Fee period:"
+msgstr "Kontingentperiode:"
+
+#: ..\..\../feepayments.php:160
+msgid " (Current period)"
+msgstr " (Inneværende)"
+
+#: ..\..\../feepayments.php:168 ..\..\../feeperiods.php:113
+msgid "No periods are defined yet."
+msgstr "Ingen perioder er definert ennå."
+
+#: ..\..\../feepayments.php:180
+msgid "Fee amount for this period: "
+msgstr "Kontingent for denne perioden:"
+
+#: ..\..\../feepayments.php:183 ..\..\../members.php:102
+msgid "Also show inactive members"
+msgstr "Vis også inaktive medlemmer"
+
+#: ..\..\../feepayments.php:191 ..\..\../members.php:111
+msgid "#"
+msgstr "Nr."
+
+#: ..\..\../feepayments.php:192 ..\..\../forgotpass.php:76
+#: ..\..\../forgotpass.php:77 ..\..\../login.php:66 ..\..\../member.php:252
+#: ..\..\../member.php:254 ..\..\../members.php:112 ..\..\../newmember.php:192
+#: ..\..\../newmember.php:194 ..\..\../register.php:131
+#: ..\..\../register.php:133 ..\..\../sendmail.php:279
+#: ..\..\../viewmember.php:116
+msgid "Username"
+msgstr "Brukernavn"
+
+#: ..\..\../feepayments.php:193 ..\..\../members.php:113
+msgid "GC name"
+msgstr "GC-navn"
+
+#: ..\..\../feepayments.php:194 ..\..\../member.php:292
+#: ..\..\../member.php:294 ..\..\../member.php:409 ..\..\../members.php:114
+#: ..\..\../newmember.php:247 ..\..\../newmember.php:249
+#: ..\..\../register.php:189 ..\..\../register.php:191
+#: ..\..\../sendmail.php:281
+msgid "First name"
+msgstr "Fornavn"
+
+#: ..\..\../feepayments.php:195 ..\..\../member.php:314
+#: ..\..\../member.php:316 ..\..\../member.php:411 ..\..\../members.php:115
+#: ..\..\../newmember.php:269 ..\..\../newmember.php:271
+#: ..\..\../register.php:211 ..\..\../register.php:213
+#: ..\..\../sendmail.php:283
+msgid "Last name"
+msgstr "Etternavn"
+
+#: ..\..\../feepayments.php:196
+msgid "Payment status"
+msgstr "Betalingsstatus"
+
+#: ..\..\../feepayments.php:197 ..\..\../members.php:118
+msgid "Actions"
+msgstr "Handlinger"
+
+#: ..\..\../feepayments.php:218 ..\..\../feepayments.php:219
+#: ..\..\../members.php:135 ..\..\../members.php:136
+msgid "<span style=\"color:silver\">(Undisclosed)</span>"
+msgstr "<span style=\"color:silver\">(Hemmelig)</span>"
+
+#: ..\..\../feepayments.php:247
+msgid "Pay"
+msgstr "Betal"
+
+#: ..\..\../feepayments.php:269
+msgid "Are you sure you want to cancel this payment?"
+msgstr "Er du sikker på at du vil annullere denne betalingen?"
+
+#: ..\..\../feepayments.php:269
+msgid "Unpay"
+msgstr "Annuller"
+
+#: ..\..\../feepayments.php:274
+msgid "<span style=\"color:silver\">(Not due)</span> "
+msgstr "<span style=\"color:silver\">(Ikke pliktig)</span> "
+
+#: ..\..\../feeperiod.php:12
+msgid "You must specify a period name."
+msgstr "Du må angi et navn på perioden."
+
+#: ..\..\../feeperiod.php:17
+msgid "You must specify a from date."
+msgstr "Du må angi en fra-dato."
+
+#: ..\..\../feeperiod.php:22
+msgid "You must specify a to date."
+msgstr "Du må angi en til-dato."
+
+#: ..\..\../feeperiod.php:27
+msgid "You must specify an amount."
+msgstr "Du må angi et beløp."
+
+#: ..\..\../feeperiod.php:48
+msgid "From date must be before to date"
+msgstr "Fra-dato må være før til-dato"
+
+#: ..\..\../feeperiod.php:49
+msgid "To date must be after from date"
+msgstr "Til-dato må være etter fra-dato"
+
+#: ..\..\../feeperiod.php:55
+#, php-format
+msgid "From date is inside an existing period (%s to %s)"
+msgstr "Fra-dato er inni en eksisterende periode (%s til %s)"
+
+#: ..\..\../feeperiod.php:62
+#, php-format
+msgid "To date is inside an existing period (%s to %s)"
+msgstr "Til-dato er inni en eksisterende periode (%s til %s)"
+
+#: ..\..\../feeperiod.php:69 ..\..\../feeperiod.php:70
+#, php-format
+msgid "An existing period exists between these dates (%s to %s)"
+msgstr "Det finnes en periode mellom disse datoene (%s til %s)"
+
+#: ..\..\../feeperiod.php:88
+msgid "Error adding fee period."
+msgstr "Feil ved tillegging av kontingentperiode"
+
+#: ..\..\../feeperiod.php:93
+msgid "Error modifying fee period."
+msgstr "Feil ved redigering av kontingentperiode"
+
+#: ..\..\../feeperiod.php:174 ..\..\../feeperiods.php:121
+msgid "New fee period"
+msgstr "Ny kontingentperiode"
+
+#: ..\..\../feeperiod.php:174
+msgid "Edit fee period"
+msgstr "Rediger kontingentperiode"
+
+#: ..\..\../feeperiod.php:184 ..\..\../feeperiod.php:186
+msgid "Period name"
+msgstr "Periodenavn"
+
+#: ..\..\../feeperiod.php:195
+msgid "From date"
+msgstr "Fra-dato"
+
+#: ..\..\../feeperiod.php:209
+msgid "To date"
+msgstr "Til-dato"
+
+#: ..\..\../feeperiod.php:223 ..\..\../feeperiod.php:225
+#: ..\..\../feeperiods.php:79
+msgid "Amount"
+msgstr "Beløp"
+
+#: ..\..\../feeperiod.php:235
+msgid "Create"
+msgstr "Opprett"
+
+#: ..\..\../feeperiod.php:235 ..\..\../feeperiods.php:103
+#: ..\..\../members.php:159
+msgid "Edit"
+msgstr "Rediger"
+
+#: ..\..\../feeperiods.php:11
+msgid ""
+"Deleting the fee period failed. Probably payments exist, that refer to it. "
+"Remove all payments from the period and try again."
+msgstr ""
+"Sletting av kontingentperioden mislyktes. Det finnes sannsynligvis "
+"betalinger som refererer til den. Fjern alle betalinger fra den perioden og "
+"prøv igjen."
+
+#: ..\..\../feeperiods.php:17 ..\..\../freeze.php:8 ..\..\../unfreeze.php:8
+#: ..\..\../viewmember.php:7
+msgid "An argument that should be numeric, wasn't."
+msgstr "Et argument som skulle ha vært numerisk, var ikke det."
+
+#: ..\..\../feeperiods.php:65 ..\..\../includes/navmenu.php:12
+msgid "Fee periods"
+msgstr "Kontingentperioder"
+
+#: ..\..\../feeperiods.php:70
+msgid "Current period is marked in <span class=\"bg-success\">green</span>."
+msgstr ""
+"Inneværende periode er merket med <span class=\"bg-success\">grønt</span>."
+
+#: ..\..\../feeperiods.php:74
+msgid "Period"
+msgstr "Periode"
+
+#: ..\..\../feeperiods.php:75
+msgid "From"
+msgstr "Fra"
+
+#: ..\..\../feeperiods.php:76
+msgid "To"
+msgstr "Til"
+
+#: ..\..\../feeperiods.php:78
+msgid "Fee payers"
+msgstr "Betalt"
+
+#: ..\..\../feeperiods.php:81
+msgid "Potential"
+msgstr "Potensial"
+
+#: ..\..\../feeperiods.php:82
+msgid "Achievement"
+msgstr "Oppnåelse"
+
+#: ..\..\../feeperiods.php:104
+msgid "Are you sure you want to delete this fee period?"
+msgstr "Er du sikker på at du vil slette denne kontingentperioden?"
+
+#: ..\..\../forgotpass.php:15
+msgid "<strong>Error:</strong> Sending verification mail failed."
+msgstr "<strong>Feil:</strong> Feil ved sending av bekreftelses-e-post."
+
+#: ..\..\../forgotpass.php:19
+msgid "<strong>Error:</strong> Username or e-mail is incorrect."
+msgstr "<strong>Feil:</strong> Feil brukernavn eller e-postadresse."
+
+#: ..\..\../forgotpass.php:64
+#, php-format
+msgid "%s logo"
+msgstr "%s-logo"
+
+#: ..\..\../forgotpass.php:65 ..\..\../includes/headerbar.php:16
+#: ..\..\../includes/headerbarbare.php:10 ..\..\../login.php:59
+#: ..\..\../setpass.php:101
+msgid "Member pages"
+msgstr "Medlemssider"
+
+#: ..\..\../forgotpass.php:66 ..\..\../setpass.php:102
+#: ..\..\../setpass.php:131
+msgid "Reset password"
+msgstr "Tilbakestill passord"
+
+#: ..\..\../forgotpass.php:73
+msgid ""
+"To reset your password, you must know both the username and the e-mail "
+"address associated with the account. You will receive an e-mail to that "
+"address containing a link and instructions on how to change your password."
+msgstr ""
+"Hvis du vil tilbakestille passordet, må du kjenne både brukernavnet og e-"
+"postadressen som er tilknyttet kontoen. Du vil motta en e-post til den "
+"adressen, som inneholder en lenke og instruksjoner for hvordan du endrer "
+"passordet."
+
+#: ..\..\../forgotpass.php:80 ..\..\../forgotpass.php:81
+#: ..\..\../member.php:269 ..\..\../member.php:271 ..\..\../member.php:408
+#: ..\..\../newmember.php:225 ..\..\../newmember.php:227
+#: ..\..\../register.php:164 ..\..\../register.php:166
+#: ..\..\../sendmail.php:288 ..\..\../viewmember.php:136
+msgid "E-mail address"
+msgstr "E-postadresse"
+
+#: ..\..\../forgotpass.php:94
+msgid "Request password change e-mail"
+msgstr "Send meg e-post for å endre passord"
+
+#: ..\..\../freeze.php:6 ..\..\../unfreeze.php:6 ..\..\../viewmember.php:5
+msgid "One or more arguments are required, none found."
+msgstr "Ett eller flere argumenter er obligatoriske, men ingen ble angitt."
+
+#: ..\..\../freeze.php:7 ..\..\../member.php:29 ..\..\../unfreeze.php:7
+#: ..\..\../viewmember.php:6
+msgid "One or more arguments are invalid."
+msgstr "Ett eller flere argumenter er ugyldige."
+
+#: ..\..\../functions.php:16
+msgid "Could not connect:"
+msgstr "Kan ikke koble til:"
+
+#: ..\..\../includes/footer.php:3 ..\..\../install/index.php:190
+#: ..\..\../install/install1.php:126 ..\..\../install/install2.php:195
+#: ..\..\../install/install3.php:249 ..\..\../install/install4.php:177
+#: ..\..\../install/upgrade1.php:134
+msgid "Version"
+msgstr "Versjon"
+
+#: ..\..\../includes/footer.php:4 ..\..\../install/index.php:191
+#: ..\..\../install/install1.php:127 ..\..\../install/install2.php:196
+#: ..\..\../install/install3.php:250 ..\..\../install/install4.php:178
+#: ..\..\../install/upgrade1.php:135 ..\..\../tou.php:36
+msgid "Terms of Use"
+msgstr "Vilkår for bruk"
+
+#: ..\..\../includes/footer.php:4 ..\..\../install/index.php:191
+#: ..\..\../install/install1.php:127 ..\..\../install/install2.php:196
+#: ..\..\../install/install3.php:250 ..\..\../install/install4.php:178
+#: ..\..\../install/upgrade1.php:135 ..\..\../member.php:404
+#: ..\..\../privacy.php:36
+msgid "Privacy"
+msgstr "Personvern"
+
+#: ..\..\../includes/footer.php:5 ..\..\../install/index.php:192
+#: ..\..\../install/install1.php:128 ..\..\../install/install2.php:197
+#: ..\..\../install/install3.php:251 ..\..\../install/install4.php:179
+#: ..\..\../install/upgrade1.php:136
+msgid "Built using"
+msgstr "Laget med"
+
+#: ..\..\../includes/footer.php:9 ..\..\../install/index.php:196
+#: ..\..\../install/install1.php:132 ..\..\../install/install2.php:201
+#: ..\..\../install/install3.php:255 ..\..\../install/install4.php:183
+#: ..\..\../install/upgrade1.php:140
+msgid "and"
+msgstr "og"
+
+#: ..\..\../includes/headerbar.php:4
+msgid "Board view"
+msgstr "Styrevisning"
+
+#: ..\..\../includes/headerbar.php:15 ..\..\../includes/headerbarbare.php:9
+#: ..\..\../login.php:58 ..\..\../setpass.php:100
+msgid " logo"
+msgstr "logo"
+
+#: ..\..\../includes/headerbar.php:28
+msgid "Log out"
+msgstr "Logg ut"
+
+#: ..\..\../includes/navmenu.php:4
+msgid "Navigation"
+msgstr "Navigering"
+
+#: ..\..\../includes/navmenu.php:6
+msgid "Dashboard"
+msgstr "Dashbord"
+
+#: ..\..\../includes/navmenu.php:8 ..\..\../member.php:219
+msgid "My details"
+msgstr "Mine detaljer"
+
+#: ..\..\../includes/navmenu.php:14 ..\..\../sendmail.php:180
+msgid "Send e-mail"
+msgstr "Send e-post"
+
+#: ..\..\../install/index.php:46 ..\..\../install/install1.php:40
+#: ..\..\../install/install2.php:47 ..\..\../install/install3.php:48
+#: ..\..\../install/install4.php:108 ..\..\../install/upgrade1.php:46
+msgid "GeoMemberz Installer"
+msgstr "GeoMemberz-installasjon"
+
+#: ..\..\../install/index.php:68 ..\..\../install/install1.php:62
+#: ..\..\../install/install2.php:69 ..\..\../install/install3.php:70
+#: ..\..\../install/install4.php:130 ..\..\../install/upgrade1.php:68
+msgid "Installation"
+msgstr "Installasjon"
+
+#: ..\..\../install/index.php:80 ..\..\../install/install1.php:74
+#: ..\..\../install/install2.php:81 ..\..\../install/install3.php:82
+#: ..\..\../install/install4.php:142 ..\..\../install/upgrade1.php:80
+msgid "Progress"
+msgstr "Fremdrift"
+
+#: ..\..\../install/index.php:84 ..\..\../install/upgrade1.php:84
+msgid "Confirmation"
+msgstr "Bekreftelse"
+
+#: ..\..\../install/index.php:85 ..\..\../install/index.php:113
+#: ..\..\../install/upgrade1.php:85 ..\..\../install/upgrade1.php:105
+msgid "Upgrade"
+msgstr "Oppgradering"
+
+#: ..\..\../install/index.php:88 ..\..\../install/install1.php:77
+#: ..\..\../install/install2.php:84 ..\..\../install/install3.php:85
+#: ..\..\../install/install4.php:145
+msgid "Connection"
+msgstr "Tilkobling"
+
+#: ..\..\../install/index.php:89 ..\..\../install/install1.php:78
+#: ..\..\../install/install2.php:85 ..\..\../install/install3.php:86
+#: ..\..\../install/install4.php:146
+msgid "Database setup"
+msgstr "Databaseoppsett"
+
+#: ..\..\../install/index.php:90 ..\..\../install/install1.php:79
+#: ..\..\../install/install2.php:86 ..\..\../install/install3.php:87
+#: ..\..\../install/install4.php:147
+msgid "General settings"
+msgstr "Generelle innstillinger"
+
+#: ..\..\../install/index.php:91 ..\..\../install/install1.php:80
+#: ..\..\../install/install2.php:87 ..\..\../install/install3.php:88
+#: ..\..\../install/install3.php:166 ..\..\../install/install4.php:148
+msgid "E-mail settings"
+msgstr "E-postinnstillinger"
+
+#: ..\..\../install/index.php:93
+msgid "No action"
+msgstr "Ingen handling"
+
+#: ..\..\../install/index.php:101 ..\..\../install/upgrade1.php:93
+msgid "Welcome to the GeoMemberz installer."
+msgstr "Velkommen til GeoMemberz-installasjonen."
+
+#: ..\..\../install/index.php:104 ..\..\../install/upgrade1.php:96
+msgid "<p>A previous installation was detected.</p>"
+msgstr "<p>En tidligere installasjon ble oppdaget.</p>"
+
+#: ..\..\../install/index.php:112 ..\..\../install/upgrade1.php:104
+msgid ""
+"<p>Click <strong>Upgrade</strong> to perform the upgrade. Make sure you have "
+"backed up your files and databases before proceeding.</p>"
+msgstr ""
+"<p>Klikk <strong>Oppgrader</strong> for å utføre oppgraderingen. Sørg for at "
+"du har sikkerhetskopiert filer og databaser før du fortsetter.</p>"
+
+#: ..\..\../install/index.php:117 ..\..\../install/upgrade1.php:109
+msgid ""
+"<p>Your installation is already up-to-date, and no action is necessary.</p>"
+msgstr ""
+"<p>Installasjonen er allerede oppdatert, og det er ikke nødvendig å gjøre "
+"noe.</p>"
+
+#: ..\..\../install/index.php:118 ..\..\../install/upgrade1.php:110
+msgid "<p>Remember to delete or remove access to the /install folder.</p>"
+msgstr "<p>Husk å slette eller fjerne tilgangen til mappen /install..</p>"
+
+#: ..\..\../install/index.php:123
+msgid "<p>No previous installation detected.</p>"
+msgstr "<p>Ingen tidligere installasjon ble oppdaget.</p>"
+
+#: ..\..\../install/index.php:124
+msgid ""
+"<p>Let's start by connecting to the database. If you haven't done so "
+"already, find out which existing MySQL database you want to use, or create a "
+"new one. GeoMemberz can coexist with other stuff in a database - it doesn't "
+"need a database alone. Also, you will need the username and password of a "
+"database user with full permissions for that database. We recommend creating "
+"a separate database user for this purpose, if possible, as the username and "
+"password will be stored in plain text in the core/config.php file.</p>"
+msgstr ""
+"<p>La oss begynne med å koble til databasen. Hvis du ikke allerede har gjort "
+"det, finner du ut hvilken eksisterende MySQL-database du vil bruke, eller "
+"opprett en ny. GeoMemberz kan sameksistere med andre ting i en database – "
+"det er ikke nødvendig med en egen database. I tillegg vil du trenge "
+"brukernavn og passord til en bruker som har alle tillatelser til denne "
+"databasen. Vi anbefaler at du om mulig oppretter en egen databasebruker til "
+"dette formålet, ettersom brukernavnet og passordet vil bli lagret i "
+"klartekst i filen core/config.php.</p>"
+
+#: ..\..\../install/index.php:136 ..\..\../install/index.php:138
+#: ..\..\../install/index.php:170
+msgid "MySQL Host name"
+msgstr "MySQL-vertsnavn"
+
+#: ..\..\../install/index.php:140
+msgid "Host name of the MySQL server"
+msgstr "Vertsnavn til MySQL-serveren"
+
+#: ..\..\../install/index.php:140
+msgid ""
+"Usually, this is the same host as the web server. If that is the case, leave "
+"the default localhost IP address. The IP address is better than the "
+"<em>localhost</em> host name."
+msgstr ""
+"Vanligvis er dette den samme verten som webserveren. Hvis dette er tilfelle, "
+"lar du standardverdien til localhost stå. IP-adressen foretrekkes fremfor "
+"vertsnavnet <em>localhost</em>."
+
+#: ..\..\../install/index.php:144 ..\..\../install/index.php:146
+msgid "MySQL Port"
+msgstr "MySQL-port"
+
+#: ..\..\../install/index.php:148
+msgid "Port number of the MySQL server"
+msgstr "Portnummer for MySQL-serveren"
+
+#: ..\..\../install/index.php:148
+msgid ""
+"This is the port number that the MySQL server is listening on. Usually, this "
+"is 3306."
+msgstr ""
+"Dette er portnummeret som MySQL-serveren lytter på. Vanligvis er dette 3306."
+
+#: ..\..\../install/index.php:152 ..\..\../install/index.php:154
+msgid "Database name"
+msgstr "Databasenavn"
+
+#: ..\..\../install/index.php:156
+msgid "The database name"
+msgstr "Databasenavnet"
+
+#: ..\..\../install/index.php:156
+msgid ""
+"Enter the name of the database you want GeoMemberz to reside in. It can be a "
+"database used for other stuff, or one created just for GeoMemberz. All "
+"database items in this database will get a prefix, which will be set on the "
+"next page."
+msgstr ""
+"Skriv inn navnet på databasen du vil ha GeoMemberz i. Det kan være en "
+"database du bruker til andre ting, eller en som er opprettet bare for "
+"GeoMemberz. Alle databaseelementer i databasen vil få et prefiks, som du "
+"angir på neste side."
+
+#: ..\..\../install/index.php:160 ..\..\../install/index.php:162
+msgid "MySQL username"
+msgstr "MySQL-brukernavn"
+
+#: ..\..\../install/index.php:164
+msgid "The username for the MySQL database"
+msgstr "Brukernavnet til MySQL-databasen"
+
+#: ..\..\../install/index.php:164
+msgid ""
+"Enter the name of a user with full permission to the database provided above."
+msgstr ""
+"Skriv inn navnet på en bruker som har alle tillatelser til databasen du "
+"angav over."
+
+#: ..\..\../install/index.php:168
+msgid "MySQL password"
+msgstr "MySQL-passord"
+
+#: ..\..\../install/index.php:172
+msgid "The password for the MySQL user"
+msgstr "Passordet til MySQL-brukeren"
+
+#: ..\..\../install/index.php:172
+msgid ""
+"Enter the password for the above user. Note that this password will be "
+"stored in plain text in the core/config.php file."
+msgstr ""
+"Skriv inn passordet for brukeren over. Merk at passordet vil bli lagret i "
+"klartekst i filen core/config.php."
+
+#: ..\..\../install/index.php:176 ..\..\../install/install1.php:112
+#: ..\..\../install/install2.php:181
+msgid "Next >"
+msgstr "Neste >"
+
+#: ..\..\../install/install1.php:91
+msgid ""
+"<p><strong>Connection successful.</strong></p><p>The next step is to create "
+"the tables. You now have the option to change the prefix that will be used "
+"for tables and views. If you plan on running more than one GeoMemberz "
+"instance on the same server, you must change this to uniquely identify each "
+"instance.</p>"
+msgstr ""
+"<p><strong>Tilkoblingen var vellykket.</strong></p><p>Neste trinn er å "
+"opprette databaseelementene. Du kan nå endre prefikset som brukes. Hvis du "
+"planlegger å kjøre flere enn én GeoMemberz-forekomst på samme server, må du "
+"endre dette slik at hver forekomst kan identifiseres unikt.</p>"
+
+#: ..\..\../install/install1.php:99 ..\..\../install/install1.php:101
+msgid "MySQL prefix"
+msgstr "MySQL-prefiks"
+
+#: ..\..\../install/install1.php:103
+msgid "The prefix for MySQL tables and views"
+msgstr "Prefikset for MySQL-databaseelementer"
+
+#: ..\..\../install/install1.php:103
+msgid ""
+"This will be used as a prefix for all table and view names. It must be "
+"unique for each GeoMemberz instance."
+msgstr ""
+"Dette brukes som prefiks for alle tabellnavn, view-navn og trigger-navn. Det "
+"må være unikt for hver forekomst av GeoMemberz."
+
+#: ..\..\../install/install2.php:96
+msgid ""
+"<p><strong>Creating the database content failed.</strong><br/>Please contact "
+"us for help.</p>"
+msgstr ""
+"<p><strong>Oppretting av databaseelementene mislyktes.</strong><br/>Kontakt "
+"oss for å få hjelp.</p>"
+
+#: ..\..\../install/install2.php:98
+msgid ""
+"<p><strong>Database content successfully created.</strong></p><p>The next "
+"step is configuring GeoMemberz to suit your particular needs. Please note "
+"that these settings are not validated, and will be written to the config "
+"file exactly as you type them, after the next page. Make sure you use the "
+"correct data type if you change from the default values.</p>"
+msgstr ""
+"<p><strong>Databaseelementene er opprettet.</strong></p><p>Neste trinn er å "
+"konfigurere GeoMemberz til dine spesifikke behov. Merk at disse "
+"innstillingene ikke valideres, og vil bli skrevet til konfigurasjonsfilen "
+"nøyaktig slik du skriver dem inn, etter neste side. Pass på at du bruker "
+"riktig datatype hvis du endrer på standardverdiene.</p>"
+
+#: ..\..\../install/install2.php:105
+msgid "Prefixes"
+msgstr "Prefikser"
+
+#: ..\..\../install/install2.php:107 ..\..\../install/install2.php:109
+msgid "Session prefix"
+msgstr "Øktsprefiks"
+
+#: ..\..\../install/install2.php:111
+msgid "The prefix for session variables"
+msgstr "Prefikset for øktsvariabler"
+
+#: ..\..\../install/install2.php:111
+msgid ""
+"This will be used as a prefix for all session variables. It must be unique "
+"for each GeoMemberz instance running on the same host."
+msgstr ""
+"Dette brukes som prefiks for alle øktsvariabler. Dette må være unikt for "
+"hver GeoMemberz-forekomst som kjører på samme vert."
+
+#: ..\..\../install/install2.php:115 ..\..\../install/install2.php:117
+msgid "Cookie prefix"
+msgstr "Informasjonskapsel-prefiks"
+
+#: ..\..\../install/install2.php:119
+msgid "The prefix for cookies"
+msgstr "Prefikset for informasjonskapsler"
+
+#: ..\..\../install/install2.php:119
+msgid ""
+"This will be used as a prefix for all cookies. It must be unique for each "
+"GeoMemberz instance running on the same host."
+msgstr ""
+"Dette brukes som prefiks for alle informasjonskapsler. Dette må være unikt "
+"for hver GeoMemberz-forekomst som kjører på samme vert."
+
+#: ..\..\../install/install2.php:123
+msgid "Timeouts"
+msgstr "Tidsavbrudd"
+
+#: ..\..\../install/install2.php:125 ..\..\../install/install2.php:127
+msgid "Cookie expiry"
+msgstr "Informasjonskapselvarighet"
+
+#: ..\..\../install/install2.php:129
+msgid "The expiry time for cookies"
+msgstr "Varigheten til informasjonskapsler"
+
+#: ..\..\../install/install2.php:129
+msgid ""
+"This is the cookie expiry time, in seconds. One year is 31622400 seconds. "
+"After this time, users using the <em>Remember me</em> feature will have to "
+"log in again."
+msgstr ""
+"Dette er informasjonskapslenes varighet, angitt i sekunder. Ett år er "
+"31622400 sekunder. Når denne tiden har gått, vil brukere som bruker <em>Husk "
+"meg</em>-funksjonen måtte logge inn på nytt."
+
+#: ..\..\../install/install2.php:133 ..\..\../install/install2.php:135
+msgid "Password change timeout"
+msgstr "Tidsavbrudd for passordendring"
+
+#: ..\..\../install/install2.php:137
+msgid "The timeout for password change"
+msgstr "Tidsavbruddet for passordendring"
+
+#: ..\..\../install/install2.php:137
+msgid ""
+"After this amount of time, in seconds, the authorization for a password "
+"change will expire, and the link in the password change e-mail will no "
+"longer work. One day is 86400 seconds."
+msgstr ""
+"Etter dette tidsrommet, angitt i sekunder, vil autorisasjonen av en "
+"passordendring utløpe, og lenken i e-postmeldingen om passordendring vil "
+"ikke lenger fungere. Én dag er 86400 sekunder."
+
+#: ..\..\../install/install2.php:141 ..\..\../install/install2.php:143
+msgid "Validation timeout"
+msgstr "Tidsavbrudd for validering"
+
+#: ..\..\../install/install2.php:145
+msgid "The timeout for validation"
+msgstr "Tidsavbrudd for validering"
+
+#: ..\..\../install/install2.php:145
+msgid ""
+"After this amount of time, in seconds, the validation token will expire, and "
+"the link in the validation e-mail will no longer work. One day is 86400 "
+"seconds."
+msgstr ""
+"Etter dette tidsrommet, angitt i sekunder, vil validerings-tokenet utløpe, "
+"og lenken i validerings-e-posten  vil ikke lenger fungere. Én dag er 86400 "
+"sekunder."
+
+#: ..\..\../install/install2.php:149
+msgid "Organization details"
+msgstr "Organisasjonsdetaljer"
+
+#: ..\..\../install/install2.php:151 ..\..\../install/install2.php:153
+msgid "Organization name"
+msgstr "Organisasjonsnavn"
+
+#: ..\..\../install/install2.php:155
+msgid "The organization name"
+msgstr "Organisasjonsnavnet"
+
+#: ..\..\../install/install2.php:155
+msgid ""
+"This is the name of your membership organization. It is used throughout the "
+"system, including in e-mails."
+msgstr ""
+"Dette er navnet på medlemskapsorganisasjonen. Det brukes overalt i systemet, "
+"inkludert i e-postmeldinger."
+
+#: ..\..\../install/install2.php:159 ..\..\../install/install2.php:161
+msgid "Bank account number"
+msgstr "Bankkontonummer"
+
+#: ..\..\../install/install2.php:163
+msgid "The bank account number"
+msgstr "Bankkontonummeret"
+
+#: ..\..\../install/install2.php:163
+msgid ""
+"This is the organizations bank account number. It is used anywhere the "
+"members are asked to pay their membership fees, including in e-mails."
+msgstr ""
+"Dette er organisasjonens bankkontonummer. Det brukes alle steder hvor "
+"medlemmene blir bedt om å betale kontingent, inkludert i e-postmeldinger."
+
+#: ..\..\../install/install2.php:167 ..\..\../install/install2.php:169
+msgid "Fee age limit"
+msgstr "Aldersgrense for kontingent"
+
+#: ..\..\../install/install2.php:171
+msgid "The fee age limit"
+msgstr "Aldersgrense for kontingent"
+
+#: ..\..\../install/install2.php:171
+msgid ""
+"This is the minimum age from which members must pay a membership fee. If you "
+"don't have an age limit, simply specify 0."
+msgstr ""
+"Dette er den alderen hvor kontingentplikten inntrår. Hvis alle medlemmer er "
+"kontingentpliktige, angir du ganske enkelt 0."
+
+#: ..\..\../install/install3.php:27
+msgid "board"
+msgstr "styret"
+
+#: ..\..\../install/install3.php:28
+#, php-format
+msgid "The %s Board"
+msgstr "Styret i %s"
+
+#: ..\..\../install/install3.php:29 ..\..\../install/install3.php:31
+#: ..\..\../sendmail.php:121 ..\..\../sendmail.php:122
+msgid "member"
+msgstr "medlem"
+
+#: ..\..\../install/install3.php:97
+msgid ""
+"<p><strong>Temporarily storing the settings failed.</strong><br/>Please "
+"contact us for help.</p>"
+msgstr ""
+"<p><strong>Midlertidig lagring av innstillingene mislyktes.</strong><br/"
+">Kontakt oss for å få hjelp.</p>"
+
+#: ..\..\../install/install3.php:99
+msgid ""
+"<p><strong>Settings stored temporarily.</strong></p><p>The last step is "
+"setting up everything to do with e-mail. When you clik <strong>Finish</"
+"strong>, a config wile will be written, and an admin user to log in to the "
+"system with, will be created.</p>"
+msgstr ""
+"<p><strong>Innstillinger lagret midlertidig.</strong></p><p>Det siste "
+"trinnet er å konfigurere alt som har med e-post å gjøre. Når du klikker "
+"<strong>Finish</strong>, vil en konfigurasjonsfil bli skrevet, og en admin-"
+"bruker til å logge inn på systemet med, vil bli opprettet.</p>"
+
+#: ..\..\../install/install3.php:106
+msgid "SMTP settings"
+msgstr "SMTP-innstillinger"
+
+#: ..\..\../install/install3.php:109
+msgid "Use SMTP"
+msgstr "Bruk SMTP"
+
+#: ..\..\../install/install3.php:112 ..\..\../install/install3.php:140
+#: ..\..\../install/install3.php:203 ..\..\../sendmail.php:234
+msgid "Yes"
+msgstr "Ja"
+
+#: ..\..\../install/install3.php:115
+msgid "No, use PHP's built-in Mail() function"
+msgstr "Nei, bruk Mail()-funksjonen i PHP"
+
+#: ..\..\../install/install3.php:121 ..\..\../install/install3.php:123
+msgid "SMTP server host"
+msgstr "SMTP-servernavn"
+
+#: ..\..\../install/install3.php:125
+msgid "The SMTP server host name"
+msgstr "Vertsnavnet til SMTP-serveren"
+
+#: ..\..\../install/install3.php:125
+msgid "This should be a server which will accept e-mail from this host."
+msgstr "Dette må være en server som vil godta e-post fra denne verten."
+
+#: ..\..\../install/install3.php:129 ..\..\../install/install3.php:131
+msgid "SMTP server port"
+msgstr "SMTP-serverport"
+
+#: ..\..\../install/install3.php:133
+msgid "The SMTP server port number"
+msgstr "Portnummeret til SMTP-serveren"
+
+#: ..\..\../install/install3.php:133
+msgid ""
+"The port number the above SMTP server is listening on. Normally, this is "
+"port 25."
+msgstr ""
+"Portnummeret som SMTP-serveren over lytter på. Vanligvis er dette port 25."
+
+#: ..\..\../install/install3.php:137
+msgid "Use SMTP authentication"
+msgstr "Bruk SMTP-autentisering"
+
+#: ..\..\../install/install3.php:143 ..\..\../install/install3.php:206
+#: ..\..\../sendmail.php:240
+msgid "No"
+msgstr "Nei"
+
+#: ..\..\../install/install3.php:149 ..\..\../install/install3.php:151
+msgid "SMTP username"
+msgstr "SMTP-brukernavn"
+
+#: ..\..\../install/install3.php:153
+msgid "The SMTP username"
+msgstr "SMTP-brukernavnet"
+
+#: ..\..\../install/install3.php:153
+msgid "The username of a user with access to the above SMTP server."
+msgstr "Brukernavnet til en bruker som har tilgang til SMTP-serveren over."
+
+#: ..\..\../install/install3.php:157 ..\..\../install/install3.php:159
+msgid "SMTP password"
+msgstr "SMTP-passord"
+
+#: ..\..\../install/install3.php:161
+msgid "The SMTP password"
+msgstr "SMTP-passordet"
+
+#: ..\..\../install/install3.php:161
+msgid "The password for the above user."
+msgstr "Passordet til brukeren over."
+
+#: ..\..\../install/install3.php:168 ..\..\../install/install3.php:170
+msgid "Notification address"
+msgstr "Varslingsadresse"
+
+#: ..\..\../install/install3.php:172
+msgid "E-mail address for notifications"
+msgstr "E-postadresse for varslinger"
+
+#: ..\..\../install/install3.php:172
+msgid ""
+"This address will be used for notifications about new members as well as "
+"other system messages."
+msgstr ""
+"Denne adressen brukes til varsling om nye medlemmer og andre systemmeldinger."
+
+#: ..\..\../install/install3.php:176 ..\..\../install/install3.php:178
+msgid "Notification address name"
+msgstr "Navn for varslingsadresse"
+
+#: ..\..\../install/install3.php:180
+msgid "The notification address name"
+msgstr "Navnet for varslingsadressen"
+
+#: ..\..\../install/install3.php:180
+msgid ""
+"This is the name of the recipient associated with the above address. Most e-"
+"mail clients will show this name instead of or in addition to the e-mail "
+"address."
+msgstr ""
+"Dette er navnet på mottakeren som adressen over gjelder. De fleste e-"
+"postklienter vil vise dette navnet i stedet for eller i tillegg til e-"
+"postadressen."
+
+#: ..\..\../install/install3.php:184 ..\..\../install/install3.php:186
+msgid "System address"
+msgstr "Systemadresse"
+
+#: ..\..\../install/install3.php:188
+msgid "Sender e-mail address"
+msgstr "Systemets e-postadresse"
+
+#: ..\..\../install/install3.php:188
+msgid ""
+"This is the e-mail address from which system e-mail is sent and replied to."
+msgstr ""
+"Dette er e-postadressen som system-e-post sendes fra og som svar på dem går "
+"til."
+
+#: ..\..\../install/install3.php:192 ..\..\../install/install3.php:194
+msgid "System address name"
+msgstr "Navn for systemadresse"
+
+#: ..\..\../install/install3.php:196
+msgid "The system address name"
+msgstr "Navnet for systemadressen"
+
+#: ..\..\../install/install3.php:196
+msgid ""
+"This is the name of the sender associated with the above address. Most e-"
+"mail clients will show this name instead of or in addition to the e-mail "
+"address."
+msgstr ""
+"Dette er navnet på avsenderen som adressen over gjelder. De fleste e-"
+"postklienter vil vise dette navnet i stedet for eller i tillegg til e-"
+"postadressen."
+
+#: ..\..\../install/install3.php:200
+msgid "BCC all system mail"
+msgstr "Blindkopier all system-e-post "
+
+#: ..\..\../install/install3.php:211 ..\..\../install/install3.php:213
+msgid "BCC recipient address"
+msgstr "Mottakeradresse for blindkopi"
+
+#: ..\..\../install/install3.php:215
+msgid "The BCC recipient address"
+msgstr "Mottakeradressen for blindkopi"
+
+#: ..\..\../install/install3.php:215
+msgid ""
+"Any system mail will have this address on BCC. This is useful for keeping an "
+"archive of what has been sent to members, in lieu of a sent mail folder."
+msgstr ""
+"All system-e-post får denne adressen på blindkopi-linjen. Dette er nyttig "
+"for å opprettholde et arkiv over hva som er sendt til medlemmene, all den "
+"tid det ikke finnes noen mappe for sendt e-post."
+
+#: ..\..\../install/install3.php:235
+msgid "Finish"
+msgstr "Fullfør"
+
+#: ..\..\../install/install4.php:157
+msgid ""
+"<p><strong>Writing the settings failed.</strong><br/>Please contact us for "
+"help.</p>"
+msgstr ""
+"<p><strong>Skriving av innstillingene mislyktes.</strong><br/>Kontakt oss "
+"for å få hjelp.</p>"
+
+#: ..\..\../install/install4.php:159
+#, php-format
+msgid ""
+"<p><strong>Settings saved.</strong></p><p>The username <strong>admin</"
+"strong> has been created with the email <strong>%s</strong> and the member "
+"number 0. Please go to the <a href=\"../forgotpass.php\">password reset "
+"page</a> to set a password. You can then use the admin account to grant "
+"board access (administrative) to other users, including your own. Once you "
+"have a regular username, you should remove the admin account.</p><p>Remember "
+"to delete or remove access to the /install folder.</p><p>Good luck, and "
+"thank you for using GeoMemberz.</p>"
+msgstr ""
+"<p><strong>Innstillingene er lagret.</strong></p><p>Brukernavnet "
+"<strong>admin</strong> er opprettet, med e-postadresse <strong>%s</strong> "
+"og medlemsnummer 0. Gå til <a href=\"../forgotpass.php\">siden for "
+"tilbakestilling av passord</a> for å angi et passord. Du kan deretter bruke "
+"admin-kontoen til å gi styretilgang (administrativ) til andre brukere, "
+"inkludert din egen. Straks du har et vanlig brukernavn, bør du fjerne admin-"
+"kontoen </p><p>Husk å slette eller fjerne tilgangen til mappen /install.</"
+"p><p>Lykke til, og takk for at du bruker GeoMemberz.</p>"
+
+#: ..\..\../install/upgrade1.php:115
+msgid ""
+"No previous installation detected. Let's start by connecting to the "
+"database. If you haven't done so already, find out which existing MySQL "
+"database you want to use, or create a new one. GeoMemberz can coexist with "
+"other stuff in a database - it doesn't need a database alone. Also, you will "
+"need the name and password of a database user with full permissions for that "
+"database. We recommend creating a separate database user for this purpose, "
+"if possible, as the username and password will be stored in plain text in "
+"the core/init.php file.</p>"
+msgstr ""
+"<p>La oss begynne med å koble til databasen. Hvis du ikke allerede har gjort "
+"det, finner du ut hvilken eksisterende MySQL-database du vil bruke, eller "
+"opprett en ny. GeoMemberz kan sameksistere med andre ting i en database – "
+"det er ikke nødvendig med en egen database. I tillegg vil du trenger "
+"brukernavn og passord til en bruker som har alle tillatelser til denne "
+"databasen. Vi anbefaler at du om mulig oppretter en egen databasebruker til "
+"dette formålet, ettersom brukernavnet og passordet vil bli lagret i "
+"klartekst i filen core/config.php.</p>"
+
+#: ..\..\../login.php:70 ..\..\../newmember.php:203 ..\..\../newmember.php:205
+#: ..\..\../register.php:142 ..\..\../register.php:144
+#: ..\..\../setpass.php:112 ..\..\../setpass.php:113
+msgid "Password"
+msgstr "Passord"
+
+#: ..\..\../login.php:76
+msgid "Remember me"
+msgstr "Husk meg"
+
+#: ..\..\../login.php:80
+msgid "Forgot your password?"
+msgstr "Glemt passordet?"
+
+#: ..\..\../login.php:94
+msgid "Log in"
+msgstr "Logg inn"
+
+#: ..\..\../login.php:97
+msgid "Not a member?"
+msgstr "Ikke medlem?"
+
+#: ..\..\../login.php:98
+msgid "Register now"
+msgstr "Meld deg inn nå"
+
+#: ..\..\../mailpreview.php:8
+msgid "Error: No ID given<br/>"
+msgstr "Feil: Ingen ID er angitt<br/>"
+
+#: ..\..\../mailpreview.php:11
+msgid "Subject and body must both contain something."
+msgstr "Emne og meldingstekst må begge inneholde noe."
+
+#: ..\..\../mailpreview.php:23 ..\..\../sendmail.php:190
+msgid "Subject:"
+msgstr "Emne:"
+
+#: ..\..\../mailpreview.php:24
+msgid "Body:"
+msgstr "Meldingstekst:"
+
+#: ..\..\../mailpreview.php:28
+msgid "Error: No input"
+msgstr "Feil: Ingen inndata"
+
+#: ..\..\../member.php:38
+msgid "Access denied"
+msgstr "Ingen tilgang"
+
+#: ..\..\../member.php:38
+msgid "You must be a board member to access this page."
+msgstr "Du må være styremedlem for å få tilgang til denne siden."
+
+#: ..\..\../member.php:69
+msgid "No changes."
+msgstr "Ingen endringer."
+
+#: ..\..\../member.php:72 ..\..\../member.php:110
+msgid "Account details updated."
+msgstr "Kontodetaljer oppdatert."
+
+#: ..\..\../member.php:89
+#, php-format
+msgid "In order to complete changing your e-mail address for your %s account,"
+msgstr "For å fullføre endring av e-postadresse for kontoen hos %s, "
+
+#: ..\..\../member.php:90
+msgid "you need to validate it by clicking on the link below."
+msgstr "må du validere den ved å klikke på lenken nedenfor."
+
+#: ..\..\../member.php:92
+#, php-format
+msgid "If you didn't change your password at %s, you can ignore this mail."
+msgstr ""
+"Hvis du ikke har endret passordet på %s, kan du ignorere denne e-posten."
+
+#: ..\..\../member.php:93
+msgid "Your address will be deleted within 24 hours."
+msgstr "Adressen din vil bli slettet innen et døgn."
+
+#: ..\..\../member.php:99
+#, php-format
+msgid "E-mail address change validation for %s member account"
+msgstr "Validering av e-postadresseendring for medlemskonto i %s"
+
+#: ..\..\../member.php:101 ..\..\../newmember.php:58 ..\..\../newmember.php:84
+#: ..\..\../register.php:50 ..\..\../register.php:74
+msgid "Mail error"
+msgstr "E-postfeil"
+
+#: ..\..\../member.php:101 ..\..\../newmember.php:58 ..\..\../register.php:50
+msgid "Error when sending mail.<br/>Please report this to "
+msgstr "Feil ved sending av e-post.<br/>Rapporter dette til "
+
+#: ..\..\../member.php:101 ..\..\../newmember.php:58 ..\..\../register.php:50
+msgid "Error sending mail"
+msgstr "Feil ved sending av e-post"
+
+#: ..\..\../member.php:104
+#, php-format
+msgid ""
+"E-mail address changed. A validation mail has been sent to the new address, "
+"<strong>%s</strong>, however the address change will not take effect and be "
+"reflected here before the validation is completed."
+msgstr ""
+"E-postadresse endret. En validerings-e-post er sendt til den nye adressen, "
+"<strong>%s</strong>, men endringen vil ikke tre i kraft og bli synlig her "
+"før valideringen er fullført."
+
+#: ..\..\../member.php:176 ..\..\../newmember.php:137
+#: ..\..\../sendmail.php:293
+msgid "Submembers"
+msgstr "Undermedlemmer"
+
+#: ..\..\../member.php:195 ..\..\../newmember.php:155
+msgid "New member"
+msgstr "Nytt medlem"
+
+#: ..\..\../member.php:203
+#, php-format
+msgid ""
+"You are a submember of %s (member no. %s), so you cannot have your own "
+"submembers."
+msgstr ""
+"Du er undermedlem av %s (medlemsnr. %s) og kan ikke ha dine egne "
+"undermedlemmer."
+
+#: ..\..\../member.php:207
+#, php-format
+msgid ""
+"This is a submember of %s (member no. %s), which cannot have its own "
+"submembers."
+msgstr ""
+"Dette er et undermedlem av %s (medlemsnr. %s), som ikke kan ha sine egne "
+"undermedlemmer."
+
+#: ..\..\../member.php:223
+msgid "Details for"
+msgstr "Detaljer for"
+
+#: ..\..\../member.php:233
+msgid "Close"
+msgstr "Lukk"
+
+#: ..\..\../member.php:242 ..\..\../viewmember.php:112
+msgid "Member number"
+msgstr "Medlemsnummer"
+
+#: ..\..\../member.php:248 ..\..\../newmember.php:188
+#: ..\..\../register.php:127
+msgid ""
+"<div class='popoverhead'>Username in the member system.</div>Normally, it "
+"makes most sense if this is the same as your Geocaching name. You might "
+"however have reasons for choosing a different username."
+msgstr ""
+"<div class='popoverhead'>Brukernavn i medlemssystemet.</div>Vanligvis er det "
+"best om dette er det samme som geocaching-navnet ditt. Det kan imidlertid "
+"finnes grunner til at du vil ha et annet brukernavn."
+
+#: ..\..\../member.php:259
+msgid ""
+"<div class='popoverhead'>Your e-mail address.</div>This is our primary "
+"communication channel, and required."
+msgstr ""
+"<div class='popoverhead'>E-postadressen din.</div>Dette er den viktigste "
+"kommunikasjonskanalen vår, og er påkrevd."
+
+#: ..\..\../member.php:277
+msgid ""
+"<div class='popoverhead'>Your geocaching name.</div>If you are a team, you "
+"have two options: Either register them later as &quot;belonging&quot; to "
+"this account, or create separate accounts for them. In either case, you can "
+"register either the same or different geocaching names for all members, or a "
+"combination like two people sharing one geocaching name, plus one having a "
+"different geocaching name."
+msgstr ""
+"<div class='popoverhead'>Geocaching-navnet ditt.</div>Hvis du er en del av "
+"et team, har du to muligheter: Enten registrerer du dem senere som &quot;"
+"undermedlemmer&quot; til denne kontoen, eller så kan du opprette separate "
+"kontoer for de andre. Uansett hva du velger, kan du registrere enten det "
+"samme eller ulike geocaching-navn for alle medlemmer, eller en kombinasjon, "
+"som for eksempel to som deler ett geocaching-navn pluss en med et annet "
+"geocaching-navn."
+
+#: ..\..\../member.php:288 ..\..\../newmember.php:243
+#: ..\..\../register.php:185
+msgid ""
+"<div class='popoverhead'>Your first name.</div>If your have more than one "
+"first name, all should go here."
+msgstr ""
+"<div class='popoverhead'>Fornavnet ditt.</div>Hvis du har flere enn ett "
+"fornavn, skriver du alle her."
+
+#: ..\..\../member.php:299 ..\..\../newmember.php:254
+#: ..\..\../register.php:196
+msgid ""
+"<div class='popoverhead'>Your middle name.</div>If you don&apos;t have one, "
+"leave this empty. This is displayed between your first and last names where "
+"full name is used."
+msgstr ""
+"<div class='popoverhead'>Mellomnavnet ditt.</div>Hvis du ikke har noe "
+"mellomnavn, lar du dette stå tomt. Dette vises mellom fornavn og etternavn "
+"der fullt navn brukes."
+
+#: ..\..\../member.php:303 ..\..\../member.php:305 ..\..\../member.php:410
+#: ..\..\../newmember.php:258 ..\..\../newmember.php:260
+#: ..\..\../register.php:200 ..\..\../register.php:202
+#: ..\..\../sendmail.php:282
+msgid "Middle name"
+msgstr "Mellomnavn"
+
+#: ..\..\../member.php:310 ..\..\../newmember.php:265
+#: ..\..\../register.php:207
+msgid ""
+"<div class='popoverhead'>Your last name.</div>If you have more than one last "
+"name, the one that the name should be sorted by, should go here, and the "
+"others under &quot;Middle name&quot;."
+msgstr ""
+"<div class='popoverhead'>Etternavnet ditt.</div>Hvis du har flere enn ett "
+"etternavn, er det det etternavnet som det er naturlig å sortere på, som "
+"skrives her. Andre angis under &quot;Mellomnavn&quot;."
+
+#: ..\..\../member.php:321 ..\..\../newmember.php:276
+#: ..\..\../register.php:218
+msgid ""
+"<div class='popoverhead'>Your address.</div>We need this in situations where "
+"we need to send ordered products or giveaways to the members. You can use "
+"the enter key to type multiple lines."
+msgstr ""
+"<div class='popoverhead'>Adressen din.</div>Dette trenger vi i situasjoner "
+"hvor vi trenger å sende bestilte produkter eller gaver til medlemmene. Du "
+"kan bruke enter-tasten til linjeskift inni boksen."
+
+#: ..\..\../member.php:325 ..\..\../member.php:327 ..\..\../member.php:412
+#: ..\..\../newmember.php:280 ..\..\../newmember.php:282
+#: ..\..\../register.php:222 ..\..\../register.php:224
+#: ..\..\../sendmail.php:287 ..\..\../viewmember.php:128
+msgid "Address"
+msgstr "Adresse"
+
+#: ..\..\../member.php:332 ..\..\../newmember.php:287
+#: ..\..\../register.php:229
+msgid ""
+"<div class='popoverhead'>Your phone number.</div>We need this as backup for "
+"the e-mail, if e-mail doesn&apos;t get through."
+msgstr ""
+"<div class='popoverhead'>Telefonnummeret ditt.</div>Vi trenger dette som "
+"reserve til e-postadressen, dersom vi ikke får kontakt via e-post."
+
+#: ..\..\../member.php:336 ..\..\../member.php:338 ..\..\../member.php:413
+#: ..\..\../newmember.php:291 ..\..\../newmember.php:293
+#: ..\..\../register.php:233 ..\..\../register.php:235
+#: ..\..\../viewmember.php:140
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: ..\..\../member.php:343 ..\..\../newmember.php:298
+#: ..\..\../register.php:240
+msgid ""
+"<div class='popoverhead'>Your birth date.</div>We need this for two reasons: "
+"Knowing how many members we have in each age segment, which is needed for "
+"some kinds of funding. Also, there is an age limit for membership fees."
+msgstr ""
+"<div class='popoverhead'>Fødselsdatoen din.</div>Det er to grunner til at vi "
+"ber om dette: Vi trenger å vite fordelingen i ulike aldersgrupper for å "
+"kunne søke om visse typer støtte. I tillegg har vi aldersgrense for "
+"kontingentplikt."
+
+#: ..\..\../member.php:347 ..\..\../member.php:414 ..\..\../newmember.php:302
+#: ..\..\../register.php:244 ..\..\../sendmail.php:285
+#: ..\..\../viewmember.php:132
+msgid "Birth date"
+msgstr "Fødselsdato"
+
+#: ..\..\../member.php:357
+msgid ""
+"<div class='popoverhead'>Your position.</div>If you have any position in the "
+"association, it will be indicated here."
+msgstr ""
+"<div class='popoverhead'>Vervet ditt.</div>Hvis du har et verv i foreningen, "
+"vises dette her."
+
+#: ..\..\../member.php:360 ..\..\../member.php:362 ..\..\../members.php:116
+#: ..\..\../sendmail.php:290 ..\..\../viewmember.php:144
+msgid "Position"
+msgstr "Verv"
+
+#: ..\..\../member.php:366
+msgid ""
+"<div class='popoverhead'>The date you registered.</div>For your information "
+"only."
+msgstr ""
+"<div class='popoverhead'>Datoen du meldte deg inn.</div>Bare til informasjon."
+
+#: ..\..\../member.php:369 ..\..\../member.php:371 ..\..\../members.php:117
+#: ..\..\../sendmail.php:286 ..\..\../viewmember.php:148
+msgid "Member since"
+msgstr "Medlem siden"
+
+#: ..\..\../member.php:375
+#, php-format
+msgid ""
+"<div class='popoverhead'>Comments.</div>Type in any messages to %s here. For "
+"example, details about who is included in your nick. Only visible to you and "
+"the board members."
+msgstr ""
+"<div class='popoverhead'>Kommentarer.</div>Skriv inn kommentarer til %s her. "
+"For eksempel detaljer om hvem som er med i nicket. Bare synlig for deg og "
+"styremedlemmer."
+
+#: ..\..\../member.php:378 ..\..\../member.php:380 ..\..\../viewmember.php:164
+msgid "User comment"
+msgstr "Brukerkommentar"
+
+#: ..\..\../member.php:385
+msgid ""
+"<div class='popoverhead'>Board comment.</div>This is only visible to board "
+"members - not even the member can see this. Can be used to hold important "
+"info about the member, such as Ã‚Â«has paid fee for 2014-2016Ã‚Â»"
+msgstr ""
+"<div class='popoverhead'>Styrekommentar.</div>Dette er bare synlig for "
+"styremedlemmer – ikke engang medlemmet kan se dette. Kan brukes til viktig "
+"informasjon om medlemmet, som for eksempel «Har betalt kontingent for "
+"2014-2016»."
+
+#: ..\..\../member.php:388 ..\..\../member.php:390 ..\..\../viewmember.php:172
+msgid "Board comment"
+msgstr "Styrekommentar"
+
+#: ..\..\../member.php:397
+msgid "Board member"
+msgstr "Styremedlem"
+
+#: ..\..\../member.php:407
+msgid "Only the details with a check mark will be visible to other members."
+msgstr ""
+"Bare detaljene som er merket av med en hake, vil være synlige for andre "
+"medlemmer."
+
+#: ..\..\../member.php:421
+msgid "Update account details"
+msgstr "Oppdater kontodetaljer"
+
+#: ..\..\../members.php:91
+msgid "Your record is marked in <span class=\"bg-success\">green</span>."
+msgstr ""
+"Din egen oppføring er merket med <span class=\"bg-success\">grønt</span>."
+
+#: ..\..\../members.php:91
+msgid ""
+"Text marked in <span style=\"color:red\">red</span> on your own record, "
+"means they are undisclosed."
+msgstr ""
+"Tekst i <span style=\"color:red\">rødt</span> i din egen oppføring er ikke "
+"synlig for andre medlemmer."
+
+#: ..\..\../members.php:92
+msgid ""
+"Your submembers, if any, are marked in <span class=\"bg-info\">blue</span>."
+msgstr ""
+"Dine eventuelle undermedlemmer er merket med <span class=\"bg-info\">blått</"
+"span>."
+
+#: ..\..\../members.php:93
+msgid "Frozen members are marked in <span class=\"bg-danger\">red</span>."
+msgstr ""
+"Utmeldte medlemmer er merket med <span class=\"bg-danger\">rødt</span>."
+
+#: ..\..\../members.php:99 ..\..\../viewmember.php:106
+msgid ""
+"Text in <span style=\"color:red\">red</span> is visible to board members "
+"only, and should not be disclosed."
+msgstr ""
+"<span style=\"color:red\">Rød</span> tekst er bare synlig for styremedlemmer "
+"og skal ikke oppgis til andre."
+
+#: ..\..\../members.php:151
+msgid "E-mail address missing"
+msgstr "E-postadresse mangler"
+
+#: ..\..\../members.php:155
+msgid "View"
+msgstr "Vis"
+
+#: ..\..\../members.php:163
+msgid "Freeze"
+msgstr "Meld ut"
+
+#: ..\..\../members.php:167
+msgid "Unfreeze"
+msgstr "Meld inn"
+
+#: ..\..\../members.php:175 ..\..\../members.php:181
+msgid "Forum access"
+msgstr "Forumtilgang"
+
+#: ..\..\../members.php:178
+#, php-format
+msgid "Do you want to e-mail %s about this access?"
+msgstr "Vil du sende en e-post til %s om denne tilgangen?"
+
+#: ..\..\../newmember.php:32 ..\..\../register.php:29
+msgid "Error when adding new user to the database.<br/>Please report this to "
+msgstr "Feil ved innlegging av ny bruker i databasen.<br/>Rapporter dette til "
+
+#: ..\..\../newmember.php:32 ..\..\../register.php:29
+msgid "Error adding new user to database"
+msgstr "Feil ved innlegging av ny bruker i database"
+
+#: ..\..\../newmember.php:46 ..\..\../register.php:37
+#, php-format
+msgid "Welcome as a new member in %s, %s!"
+msgstr "Velkommen som nytt medlem i %s, %s! "
+
+#: ..\..\../newmember.php:47 ..\..\../register.php:38
+msgid ""
+"Before you can log in, you need to validate your e-mail address by clicking "
+"on the link below"
+msgstr ""
+"Før du kan logge inn, må du bekrefte e-postadressen ved å klikke på lenken "
+"under."
+
+#: ..\..\../newmember.php:49 ..\..\../register.php:41
+#, php-format
+msgid "If you didn't register at %s, please reply to this e-mail and say so,"
+msgstr ""
+"Hvis du ikke har registrert deg hos %s, kan du svare på denne e-posten og si "
+"fra om det,"
+
+#: ..\..\../newmember.php:50 ..\..\../register.php:42
+msgid "and we will remove your e-mail address immediately."
+msgstr "så fjerner vi e-postadressen din umiddelbart."
+
+#: ..\..\../newmember.php:56 ..\..\../register.php:48
+#, php-format
+msgid "E-mail address validation for %s member account"
+msgstr "Validering av e-postadresse for medlemskonto i %s"
+
+#: ..\..\../newmember.php:62
+#, php-format
+msgid "A new submember has been registered on %s:"
+msgstr "Et nytt medlem har blitt meld inn i %s:"
+
+#: ..\..\../newmember.php:63 ..\..\../register.php:55
+#, php-format
+msgid "Username:    %s"
+msgstr "Brukernavn:  %s"
+
+#: ..\..\../newmember.php:64 ..\..\../register.php:56
+#, php-format
+msgid "GC-nick:     %s"
+msgstr "GC-nick:     %s"
+
+#: ..\..\../newmember.php:65 ..\..\../register.php:57
+#, php-format
+msgid "First name:  %s"
+msgstr "Fornavn:     %s"
+
+#: ..\..\../newmember.php:66 ..\..\../register.php:58
+#, php-format
+msgid "Last name:   %s"
+msgstr "Etternavn:   %s"
+
+#: ..\..\../newmember.php:67
+#, php-format
+msgid "Created by:  %s"
+msgstr "Opprettet av:  %s"
+
+#: ..\..\../newmember.php:68 ..\..\../register.php:59
+#, php-format
+msgid "Please go to %s for more details."
+msgstr "Gå til %s for flere detaljer."
+
+#: ..\..\../newmember.php:71
+#, php-format
+msgid "<p>A new submember has been registered on %s:"
+msgstr "<p>Et nytt medlem har blitt meldt inn i %s:"
+
+#: ..\..\../newmember.php:73 ..\..\../register.php:64
+#, php-format
+msgid "<tr><th style=\"text-align:left\">Username:</th><td>%s</td></tr>"
+msgstr "<tr><th style=\"text-align:left\">Brukernavn:</th><td>%s</td></tr>"
+
+#: ..\..\../newmember.php:74 ..\..\../register.php:65
+#, php-format
+msgid "<tr><th style=\"text-align:left\">GC-nick:</th><td>%s</td></tr>"
+msgstr "<tr><th style=\"text-align:left\">GC-nick:</th><td>%s</td></tr>"
+
+#: ..\..\../newmember.php:75 ..\..\../register.php:66
+#, php-format
+msgid "<tr><th style=\"text-align:left\">First name:</th><td>%s</td></tr>"
+msgstr "<tr><th style=\"text-align:left\">Fornavn:</th><td>%s</td></tr>"
+
+#: ..\..\../newmember.php:76 ..\..\../register.php:67
+#, php-format
+msgid "<tr><th style=\"text-align:left\">Last name:</th><td>%s</td></tr>"
+msgstr "<tr><th style=\"text-align:left\">Etternavn:</th><td>%s</td></tr>"
+
+#: ..\..\../newmember.php:77
+#, php-format
+msgid "<tr><th style=\"text-align:left\">Created by:</th><td>%s</td></tr>"
+msgstr "<tr><th style=\"text-align:left\">Opprettet av:</th><td>%s</td></tr>"
+
+#: ..\..\../newmember.php:79 ..\..\../register.php:69
+#, php-format
+msgid "<p>Please go to <a href=\"%s\">%s</a> for more details.</p>"
+msgstr "<p>Gå til <a href=\"%s\">%s</a> for flere detaljer.</p>"
+
+#: ..\..\../newmember.php:80 ..\..\../register.php:70
+#, php-format
+msgid "<p>Best regards,<br/>%s</p>"
+msgstr "<p>Med hilsen<br/>%s</p>"
+
+#: ..\..\../newmember.php:82 ..\..\../register.php:72
+msgid "New member alert"
+msgstr "Varsel om nytt medlem"
+
+#: ..\..\../newmember.php:84 ..\..\../register.php:74
+msgid ""
+"Error when sending notification mail to the board. However, your account has "
+"been validated, so you can <a href=\"login.php\">log in</a>.<br/>Please "
+"report this error to "
+msgstr ""
+"Feil ved sending av varslings-e-post til styret. Kontoen din er imidlertid "
+"validert, så du kan <a href=\"login.php\">logge inn</a>.<br/>Rapporter dette "
+"til "
+
+#: ..\..\../newmember.php:84 ..\..\../register.php:74
+msgid "Error sending notification mail"
+msgstr "Feil ved sending av varslings-e-post"
+
+#: ..\..\../newmember.php:161
+msgid "You are a submember, so you cannot have your own submembers."
+msgstr "Du er undermedlem, så du kan ikke ha dine egne undermedlemmer."
+
+#: ..\..\../newmember.php:165
+msgid "This is a submember, which cannot have its own submembers."
+msgstr "Dette er et undermedlem, som ikke kan ha sine egne undermedlemmer."
+
+#: ..\..\../newmember.php:172
+msgid "Add new submember for"
+msgstr "Legg til nytt undermedlem for"
+
+#: ..\..\../newmember.php:174
+msgid ""
+"Submembers are just like any other member, and can log in to the member "
+"system and change their own details. The differences are:"
+msgstr ""
+"Undermedlemmer er som alle andre medlemmer, og kan logge inn på "
+"medlemssystemet for å endre sine egne detaljer. Forskjellene er:"
+
+#: ..\..\../newmember.php:176
+msgid "The \"main\" member's e-mail can be used for all submembers"
+msgstr ""
+"Det «overordnede» medlemmets e-postadresse kan brukes for alle undermedlemmer"
+
+#: ..\..\../newmember.php:177
+msgid "Only the \"main\" member receives fee notifications"
+msgstr "Bare det «overordnede» medlemmet mottar kontingentkrav"
+
+#: ..\..\../newmember.php:178
+msgid "The \"main\" member is responsible for fee payment for all submembers"
+msgstr ""
+"Det «overordnede» medlemmet er ansvarlig for at kontingenten betales for "
+"alle undermedlemmer"
+
+#: ..\..\../newmember.php:179
+msgid "The submember cannot remove the association to the main member"
+msgstr ""
+"Undermedlemmet kan ikke fjerne tilknytningen til det overordnede medlemmet"
+
+#: ..\..\../newmember.php:199 ..\..\../register.php:138
+msgid ""
+"<div class='popoverhead'>Your password.</div>We don't store your actual "
+"password on our server. Therefore we cannot recover it if you lose it, but "
+"in that case you can reset it."
+msgstr ""
+"<div class='popoverhead'>Passordet ditt.</div>Vi lagrer ikke det faktiske "
+"passordet på serveren vår. Derfor kan vi heller ikke få tak i det for deg "
+"hvis du mister det, men i så tilfelle kan du tilbakestille det."
+
+#: ..\..\../newmember.php:210 ..\..\../register.php:149
+msgid "Repeat your password to make sure you typed it correctly."
+msgstr "Gjenta passordet for å sikre at du skrev det riktig."
+
+#: ..\..\../newmember.php:214 ..\..\../newmember.php:216
+#: ..\..\../register.php:153 ..\..\../register.php:155
+#: ..\..\../setpass.php:115 ..\..\../setpass.php:116
+msgid "Repeat password"
+msgstr "Gjenta passord"
+
+#: ..\..\../newmember.php:221
+msgid ""
+"<div class='popoverhead'>Your e-mail address.</div>This is our primary "
+"communication channel, and required. For any submember, the main account's e-"
+"mail address will be used."
+msgstr ""
+"<div class='popoverhead'>E-postadressen din.</div>Dette er den viktigste "
+"kommunikasjonskanalen vår, og er påkrevd. For alle undermedlemmer brukes e-"
+"postadressen til den overordnede kontoen."
+
+#: ..\..\../newmember.php:232
+msgid ""
+"<div class='popoverhead'>Your geocaching name.</div>For submembers, this can "
+"be the same as the main member, but it doesn't need to."
+msgstr ""
+"<div class='popoverhead'>Geocaching-navnet ditt.</div>For undermedlemmer kan "
+"dette være det samme som for det overordnede medlemmet, men det må ikke."
+
+#: ..\..\../newmember.php:316
+msgid "Add submember"
+msgstr "Legg til undermedlem"
+
+#: ..\..\../passchanged.php:36
+msgid "Password changed"
+msgstr "Passord endret"
+
+#: ..\..\../passchanged.php:37
+#, php-format
+msgid "You can now <a href=\"%slogin.php\">log in</a>."
+msgstr "Du kan nå <a href=\"%slogin.php\">logge inn</a>."
+
+#: ..\..\../passchangemailsent.php:36
+msgid "Confirmation mail sent"
+msgstr "Bekreftelses-e-post er sendt"
+
+#: ..\..\../passchangemailsent.php:37
+msgid ""
+"An e-mail has been sent to the e-mail address associated with the account. "
+msgstr "Vi har sendt en e-post til e-postadressen som er tilknyttet kontoen. "
+
+#: ..\..\../passchangemailsent.php:38
+msgid "Check your e-mail and follow the instructions in that e-mail to change "
+msgstr "Sjekk e-posten din og følg instruksjonene i e-posten for å endre "
+
+#: ..\..\../passchangemailsent.php:39
+msgid "your password.<br/><br/>"
+msgstr "passordet.<br/><br/>"
+
+#: ..\..\../passchangemailsent.php:40 ..\..\../thankyou.php:40
+msgid ""
+"If you haven't received the e-mail within a few minutes, check your spam "
+msgstr ""
+"Hvis du ikke mottar e-posten i løpet av et par minutter, kan du sjekke "
+"søppelpostfilteret. "
+
+#: ..\..\../passchangemailsent.php:41 ..\..\../thankyou.php:41
+msgid "filter. If it's not there, please contact us at"
+msgstr "Hvis den ikke er der, kontakter du oss på "
+
+#: ..\..\../privacy.php:38
+#, php-format
+msgid ""
+"Any personal details collected by this website, is solely for the use by the "
+"board of %s, except for details "
+msgstr ""
+"Alle personlige opplysninger som samles inn av dette nettstedet, vil bare "
+"bli brukt av styret i %s, med unntak av detaljer "
+
+#: ..\..\../privacy.php:39
+msgid "the user itself has decided to make public.<br/><br/>"
+msgstr "som brukerne selv har bestemt at skal være offentlige.<br/><br/>"
+
+#: ..\..\../privacy.php:40
+#, php-format
+msgid ""
+"%s will not use this information for any other purpose than managing your "
+"membership."
+msgstr ""
+"%s vil ikke bruke denne informasjonen til noe annet formål enn å "
+"administrere medlemskapet ditt."
+
+#: ..\..\../privacy.php:41
+msgid ""
+"If you choose to use the &quot;Remember me&quot; functionality, a cookie "
+"will be used to facilitate that "
+msgstr ""
+"Hvis du velger å bruke «Husk meg»-funksjonen, vil informasjonskapsler bli "
+"brukt til å "
+
+#: ..\..\../privacy.php:42
+msgid "functionality. This cookie will contain: "
+msgstr "gjøre dette mulig. Denne informasjonskapselen inneholder:"
+
+#: ..\..\../privacy.php:44
+msgid "<li>Your username</li>"
+msgstr "<li>Brukernavnet ditt</li>"
+
+#: ..\..\../privacy.php:45
+msgid ""
+"<li>A hash representing your password (your password cannot be deduced from "
+"this hash)</li>"
+msgstr ""
+"<li>En hashverdi som representerer passordet ditt (passordet ditt kan ikke "
+"utledes fra denne hashen)</li>"
+
+#: ..\..\../register.php:40
+#, php-format
+msgid ""
+"Then, please pay the fee of kr. <strong>%s</strong> to account number "
+"<strong>%s</strong>, marking the payment with <strong>«Member %s»</strong>."
+msgstr ""
+"Betal deretter kontingenten på kr. <strong>%s</strong> inn til kontonummer "
+"<strong>%s</strong>. I feltet for betalingsinformasjon skriver du "
+"<strong>«Medlem %s»</strong>."
+
+#: ..\..\../register.php:54
+#, php-format
+msgid "A new member has registered on %s:"
+msgstr "Et nytt medlem har meldt seg inn i %s:"
+
+#: ..\..\../register.php:62
+#, php-format
+msgid "<p>A new member has registered on %s:"
+msgstr "<p>Et nytt medlem har meldt seg inn i %s:"
+
+#: ..\..\../register.php:124
+msgid "Account details"
+msgstr "Kontodetaljer"
+
+#: ..\..\../register.php:160
+msgid ""
+"<div class='popoverhead'>Your e-mail address.</div>This is our primary "
+"communication channel, and required. Your e-mail address will need to be "
+"verified before you can log on to your account."
+msgstr ""
+"<div class='popoverhead'>E-postadressen din.</div>Dette er den viktigste "
+"kommunikasjonskanalen vår, og er påkrevd. E-postadressen må bekreftes før du "
+"kan logge inn med kontoen din."
+
+#: ..\..\../register.php:171
+msgid "Member details"
+msgstr "Medlemsdetaljer"
+
+#: ..\..\../register.php:174
+msgid ""
+"<div class='popoverhead'>Your geocaching name.</div>If you are a team, you "
+"can choose whether the other members should be separate accounts, or &quot;"
+"submembers&quot; to the first account created. You will receive one "
+"accumulated fee invoice including yourself and all your submembers."
+msgstr ""
+"<div class='popoverhead'>Geocaching-navnet ditt.</div>Hvis du er med i et "
+"team, kan du velge om de andre medlemmene skal være separate kontoer eller "
+"om de skal være &quot;undermedlemmer&quot; til den første kontoen. Du vil "
+"motta én kontingentfaktura som inkluderer deg selv og alle dine "
+"undermedlemmer."
+
+#: ..\..\../register.php:257
+msgid ""
+"Except for the Username and Geocaching name, none of these details will be "
+"visible to other members until you choose to make them visible from the "
+"<strong>My details</strong> page once your are logged in. Only members of "
+"the board can see everything."
+msgstr ""
+"Med unntak av Brukernavn og Geocaching-navn, vil ingen av disse detaljene "
+"være synlige for andre medlemmer før du selv velger å gjøre dem synlige fra "
+"siden <strong>Mine detaljer</strong> når du er innlogget. Bare "
+"styremedlemmer kan se alt."
+
+#: ..\..\../register.php:260
+msgid "Register my account"
+msgstr "Meld meg inn"
+
+#: ..\..\../sendmail.php:108
+msgid "Your currently selected target group contains no members."
+msgstr "Den valgte målgruppen inneholder ingen medlemmer."
+
+#: ..\..\../sendmail.php:114
+msgid ""
+"Your currently selected target group contains the following <span id=\\"
+"\"nummembs1\\\">0</span> <span id=\\\"noun1\\\">members</span>:"
+msgstr ""
+"Den valgte målgruppen inneholder følgende <span id=\\\"nummembs1\\\">0</"
+"span> <span id=\\\"noun1\\\">medlemmer</span>:"
+
+#: ..\..\../sendmail.php:124 ..\..\../sendmail.php:125
+#: ..\..\../sendmail.php:243
+msgid "members"
+msgstr "medlemmer"
+
+#: ..\..\../sendmail.php:153 ..\..\../sendmail.php:228
+msgid ""
+"Click on a member name above to display a preview for that member's mail"
+msgstr ""
+"Klikk på et medlemsnavn over for å vise en forhåndsvisning av e-posten til "
+"det medlemmet"
+
+#: ..\..\../sendmail.php:192
+msgid "E-mail subject"
+msgstr "E-postemne"
+
+#: ..\..\../sendmail.php:196
+msgid "Sender:"
+msgstr "Avsender:"
+
+#: ..\..\../sendmail.php:206
+msgid "Target group:"
+msgstr "Målgruppe:"
+
+#: ..\..\../sendmail.php:209
+msgid "All members"
+msgstr "Alle medlemmer"
+
+#: ..\..\../sendmail.php:210
+msgid "Inactive (frozen) members"
+msgstr "Inaktive (utmeldte) medlemmer"
+
+#: ..\..\../sendmail.php:211
+msgid "Primary members owing fee for current period"
+msgstr "Primærmedlemmer som skylder kontingent"
+
+#: ..\..\../sendmail.php:212
+msgid "All members excluding any submembers"
+msgstr "Alle medlemmer, unttatt undermedlemmer"
+
+#: ..\..\../sendmail.php:213
+msgid "Primary members having submembers only"
+msgstr "Primærmedlemmer som har undermedlemmer"
+
+#: ..\..\../sendmail.php:214
+msgid "Submembers only (excluding their parents)"
+msgstr "Bare undermedlemmer (uten primærmedlemmene)"
+
+#: ..\..\../sendmail.php:215
+#, php-format
+msgid "Members over the age of %s"
+msgstr "Medlemmer over %s år"
+
+#: ..\..\../sendmail.php:216
+#, php-format
+msgid "Members under age of %s"
+msgstr "Medlemmer under %s år"
+
+#: ..\..\../sendmail.php:217
+msgid "Members with incomplete member data"
+msgstr "Medlemmer med ufullstendige opplysninger"
+
+#: ..\..\../sendmail.php:218
+msgid "Yourself (for testing)"
+msgstr "Deg selv (for testing)"
+
+#: ..\..\../sendmail.php:222
+msgid "Mail body:"
+msgstr "Meldingstekst:"
+
+#: ..\..\../sendmail.php:225
+msgid ""
+"Your currently selected target group contains the following <span id="
+"\"nummembs1\">0</span> <span id=\"noun1\">members</span>:"
+msgstr ""
+"Den valgte målgruppen inneholder følgende <span id=\"nummembs1\">0</span> "
+"<span id=\"noun1\">medlemmer</span>:"
+
+#: ..\..\../sendmail.php:225
+msgid "(None selected)"
+msgstr "(Ingen valgt)"
+
+#: ..\..\../sendmail.php:226
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: ..\..\../sendmail.php:230
+msgid "Are you sure you want to send this message?"
+msgstr "Er du sikker på at du vil sende denne meldingen?"
+
+#: ..\..\../sendmail.php:243
+msgid "Send to"
+msgstr "Send til"
+
+#: ..\..\../sendmail.php:249
+msgid "Templates"
+msgstr "Maler"
+
+#: ..\..\../sendmail.php:268
+msgid "&lt; Load"
+msgstr "&lt; Last inn"
+
+#: ..\..\../sendmail.php:273
+msgid "Variables"
+msgstr "Variabler"
+
+#: ..\..\../sendmail.php:276
+msgid ""
+"Click on the links below to insert variables in the body. If you need them "
+"in the subject, type them in manually."
+msgstr ""
+"Klikk på lenkene under for å sette inn variabler i meldingen. Hvis du "
+"trenger dem i emnefeltet, skriver du dem inn manuelt."
+
+#: ..\..\../sendmail.php:277
+msgid "Association name"
+msgstr "Organisasjonsnavn"
+
+#: ..\..\../sendmail.php:278
+msgid "Association account no."
+msgstr "Kontonummer"
+
+#: ..\..\../sendmail.php:284 ..\..\../viewmember.php:124
+msgid "Full name"
+msgstr "Fullt navn"
+
+#: ..\..\../sendmail.php:289
+msgid "Phone #"
+msgstr "Telefonnr."
+
+#: ..\..\../sendmail.php:291
+msgid "Parent member"
+msgstr "Overordnet medlem"
+
+#: ..\..\../sendmail.php:292
+msgid "Member #"
+msgstr "Medlemsnr."
+
+#: ..\..\../sendmail.php:294
+msgid "Submember #s"
+msgstr "Undermedlemsnr."
+
+#: ..\..\../sendmail.php:295
+msgid "Fee amount due"
+msgstr "Skyldig kontingent"
+
+#: ..\..\../sendmail.php:297
+msgid "Signature"
+msgstr "Signatur"
+
+#: ..\..\../setpass.php:8 ..\..\../setpass.php:52 ..\..\../setpass.php:56
+#: ..\..\../validate.php:9 ..\..\../validate.php:16
+msgid "Invalid hash when changing password"
+msgstr "Ugyldig hash ved endring av passord"
+
+#: ..\..\../setpass.php:20
+msgid "<strong>Error:</strong> No repeat password entered."
+msgstr "<strong>Feil:</strong> Gjentatt passord mangler."
+
+#: ..\..\../setpass.php:26
+msgid "<strong>Error:</strong> Passwords don't match."
+msgstr "<strong>Feil:</strong> Passordene er ikke like."
+
+#: ..\..\../setpass.php:52
+msgid "Invalid hash context.<br/>If this error persists, please contact us on "
+msgstr ""
+"Ugyldig hash-kontekst.<br/>Hvis dette problemet vedvarer, kontakter du oss "
+"på  "
+
+#: ..\..\../setpass.php:56
+msgid ""
+"Invalid hash. The confirmation link may have been used already.<br/>If this "
+"error persists, please contact us on "
+msgstr ""
+"Ugyldig hash. Bekreftelseslenken er kanskje allerede brukt.<br/>Hvis dette "
+"problemet vedvarer, kontakter du oss på  "
+
+#: ..\..\../setpass.php:60
+msgid "No hash provided"
+msgstr "Ingen hash angitt"
+
+#: ..\..\../setpass.php:109
+msgid "Please type your new password twice."
+msgstr "Skriv inn det nye passordet to ganger."
+
+#: ..\..\../thankyou.php:36
+msgid "Thank you!"
+msgstr "Takk!"
+
+#: ..\..\../thankyou.php:37
+msgid "An e-mail has been sent to you, containing a validation link. "
+msgstr "Vi har sendt deg en e-post med en valideringslenke. "
+
+#: ..\..\../thankyou.php:38
+msgid "Check your e-mail and click the validation link to activate your "
+msgstr "Sjekk e-posten din og klikk på valideringslenken for å aktivere "
+
+#: ..\..\../thankyou.php:39
+msgid "account.<br/><br/>"
+msgstr "kontoen.<br/><br/>"
+
+#: ..\..\../tou.php:38
+msgid "By using this website, you accept the following:<br/>"
+msgstr "Ved å ta i bruk dette nettstedet, aksepterer du følgende:<br/>"
+
+#: ..\..\../tou.php:40
+#, php-format
+msgid "<li>You will become a %s member by registering</li>"
+msgstr "<li>Du blir medlem i %s idet du oppretter bruker her</li>"
+
+#: ..\..\../tou.php:41
+msgid ""
+"<li>This website uses cookies if you choose to use the &quot;Remember "
+"me&quot; functionality</li>"
+msgstr ""
+"<li>Nettstedet bruker informasjonskapsler hvis du velger å bruke «Husk meg»-"
+"funksjonen</li>"
+
+#: ..\..\../validate.php:57
+#, php-format
+msgid ""
+"Your e-mail address has been validated. Now you or the user you created, can "
+"<a href=\"%slogin.php\">log in</a>."
+msgstr ""
+"E-postadressen din er validert. Nå kan du eller brukeren du opprettet, <a "
+"href=\"%slogin.php\">logge inn</a>."
+
+#: ..\..\../viewmember.php:48
+msgid "View member"
+msgstr "Vis medlem"
+
+#: ..\..\../viewmember.php:65
+msgid "Active"
+msgstr "Aktiv"
+
+#: ..\..\../viewmember.php:65
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: ..\..\../viewmember.php:82 ..\..\../viewmember.php:83
+#: ..\..\../viewmember.php:85 ..\..\../viewmember.php:86
+#: ..\..\../viewmember.php:87 ..\..\../viewmember.php:88
+#: ..\..\../viewmember.php:97 ..\..\../viewmember.php:98
+msgid "Undisclosed"
+msgstr "Hemmelig"
+
+#: ..\..\../viewmember.php:90 ..\..\../viewmember.php:91
+msgid "Nothing entered"
+msgstr "Intet angitt"
+
+#: ..\..\../viewmember.php:156
+msgid "Status"
+msgstr "Status"
+
+#: ..\..\../viewmember.php:180
+msgid "Fee status"
+msgstr "Kontingent"
+
+#~ msgid "Active members"
+#~ msgstr "Aktive medlemmer"
+
+#~ msgid "Yourself"
+#~ msgstr "Deg selv"
+
+#~ msgid "GeoBergen logo"
+#~ msgstr "GeoBergen-logo"
+
+#~ msgid ""
+#~ "<p><strong>The connection failed.</strong><br/>Please use your browser's "
+#~ "<em>Back</em> button and review your connection details.</p>"
+#~ msgstr ""
+#~ "<p><strong>Tilkoblingen mislyktes.</strong><br/>Bruk <em>Tilbake</em>-"
+#~ "knappen i nettleseren og kontroller tilkoblingsdetaljene.</p>"
+
+#~ msgid ""
+#~ "<p><strong>Settings saved.</strong></p><p>The last step is setting up "
+#~ "everything to do with e-mail.</p>"
+#~ msgstr ""
+#~ "<p><strong>Innstillingene er lagret.</strong></p><p>Det siste trinnet er "
+#~ "å konfigurere alt som har å gjøre med e-post.</p>"
+
+#~ msgid "board@%hostname%"
+#~ msgstr "styret@%hostname%"
+
+#~ msgid "member@%hostname%"
+#~ msgstr "medlem@%hostname%"
+
+#~ msgid "%assocname% Member Pages"
+#~ msgstr "Medlemssider for %assocname%"
+
+#, fuzzy
+#~ msgid ""
+#~ "<div class='popoverhead'>Username in the member system.</div>Normally, it "
+#~ "makes most sense\n"
+#~ "    if this is the same as your Geocaching name. You might however have "
+#~ "reasons for choosing a\n"
+#~ "    different username."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Brukernavn i medlemssystemet.</div>Vanligvis er "
+#~ "det best om dette er det samme som geocaching-navnet ditt. Det kan "
+#~ "imidlertid finnes grunner til at du vil ha et annet brukernavn."
+
+#, fuzzy
+#~ msgid ""
+#~ "<div class='popoverhead'>Your password.</div>We don't store your actual "
+#~ "password on our server. Therefore\n"
+#~ "                we cannot recover it if you lose it, but in that case you "
+#~ "can reset it."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Passordet ditt.</div>Vi lagrer ikke det faktiske "
+#~ "passordet på serveren vår. Derfor kan vi heller ikke få tak i det for deg "
+#~ "hvis du mister det, men i så tilfelle kan du tilbakestille det."
+
+#, fuzzy
+#~ msgid ""
+#~ "<div class='popoverhead'>Your middle name.</div>If you don&apos;t have "
+#~ "one, leave this empty. This\n"
+#~ "                is displayed between your first and last names where full "
+#~ "name is used."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Mellomnavnet ditt.</div>Hvis du ikke har noe "
+#~ "mellomnavn, lar du dette stå tomt. Dette vises mellom fornavn og "
+#~ "etternavn der fullt navn brukes."
+
+#, fuzzy
+#~ msgid ""
+#~ "<div class='popoverhead'>Your birth date.</div>We need this for two "
+#~ "reasons: Knowing how many members we have in each age\n"
+#~ "                segment, which is needed for some kinds of funding. Also, "
+#~ "there is an age limit for membership fees."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Fødselsdatoen din.</div>Det er to grunner til at "
+#~ "vi ber om dette: Vi trenger å vite fordelingen i ulike aldersgrupper for "
+#~ "å kunne søke om visse typer støtte. I tillegg har vi aldersgrense for "
+#~ "kontingentplikt."
+
+#~ msgid ""
+#~ "<div class='popoverhead'>Your geocaching name.</div>If you are a team, "
+#~ "you have two options: Either register them later as &quot;belonging&quot; "
+#~ "to this\n"
+#~ "                            account, or create separate accounts for "
+#~ "them. In either case, you can register either the same or different "
+#~ "geocaching\n"
+#~ "                            names for all members, or a combination like "
+#~ "two people sharing one geocaching name, plus one having a different "
+#~ "geocaching name."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Geocaching-navnet ditt.</div>Hvis du er en del "
+#~ "av et team, har du to muligheter: Enten registrerer du dem senere som "
+#~ "&quot;undermedlemmer&quot; \n"
+#~ "                            til denne kontoen, eller så kan du opprette "
+#~ "separate kontoer for de andre. Uansett hva du velger, kan du registrere "
+#~ "enten det samme eller ulike geocaching-navn\n"
+#~ "                            for alle medlemmer, eller en kombinasjon, som "
+#~ "for eksempel to som deler ett geocaching-navn pluss en med et annet "
+#~ "geocaching-navn."
+
+#~ msgid ""
+#~ "If you haven't received the e-mail within a few minutes, check your spam"
+#~ msgstr ""
+#~ "Hvis du ikke mottar e-posten i løpet av et par minutter, kan du sjekke "
+#~ "søppelpostfilteret."
+
+#~ msgid ""
+#~ "An e-mail has been sent to the e-mail address associated with the "
+#~ "account.\n"
+#~ "            Check your e-mail and follow the instructions in that e-mail "
+#~ "to change\n"
+#~ "            your password.<br/><br/>\n"
+#~ "            If you haven't received the e-mail within a few minutes, "
+#~ "check your spam\n"
+#~ "            filter. If it's not there, please contact us at"
+#~ msgstr ""
+#~ "En e-post er sendt til e-postadressen som er tilknyttet kontoen.\n"
+#~ "            Sjekk e-posten og følg instruksjonene i den e-posten for å "
+#~ "endre\n"
+#~ "            passordet.<br/><br/>\n"
+#~ "            Hvis du ikke har mottatt e-posten i løpet av et par minutter, "
+#~ "kan du sjekke i\n"
+#~ "            spamfilteret. Hvis den ikke er der, kan du kontakte oss på"
+
+#~ msgid "\"en\""
+#~ msgstr "\"en\""
+
+#~ msgid ""
+#~ "An e-mail has been sent to you, containing a validation link.\n"
+#~ "            Check your e-mail and click the validation link to activate "
+#~ "your\n"
+#~ "            account.<br/><br/>\n"
+#~ "            If you haven't received the e-mail within a few minutes, "
+#~ "check your spam\n"
+#~ "            filter. If it's not there, please contact us at"
+#~ msgstr ""
+#~ "En e-post med en valideringslenke er sendt til deg.\n"
+#~ "            Sjekk e-posten og klikk valideringslenken for å aktivere\n"
+#~ "            kontoen.<br/><br/>\n"
+#~ "            Hvis du ikke har mottatt e-posten i løpet av et par minutter, "
+#~ "kan du sjekke i\n"
+#~ "            spamfilteret. Hvis den ikke er der, kan du kontakte oss på"
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Error:</span> No subject given. Use the back "
+#~ "button, correct the problem and try again.<br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Feil:</span> Intet emne. Bruk Tilbake-knappen i "
+#~ "nettleseren, rett opp feil og prøv igjen.<br/>"
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Error:</span> No body text given. Use the back "
+#~ "button, correct the problem and try again.<br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Feil:</span> Ingen meldingstekst. Bruk Tilbake-"
+#~ "knappen i nettleseren, rett opp feil og prøv igjen.<br/>"
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Error:</span> No target. Use the back button, "
+#~ "select a valid target and try again.<br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Feil:</span> Ingen målgruppe. Bruk Tilbake-"
+#~ "knappen i nettleseren, rett opp feil og prøv igjen.<br/>"
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Error:</span> No sender. Use the back button, "
+#~ "select a valid sender and try again.<br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Feil:</span> Ingen avsender. Bruk Tilbake-"
+#~ "knappen i nettleseren, velg en avsender og prøv igjen.<br/>"
+
+#~ msgid ""
+#~ "<span style=\"color:red\">Error:</span> No test state. Use the back "
+#~ "button, select a test state and try again.<br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Feil:</span> Ingen testtilstand. Bruk Tilbake-"
+#~ "knappen i nettleseren, rett opp feil og prøv igjen.<br/>"
+
+#~ msgid "<span style=\"color:red\">Sending mail to %s failed</span><br/>"
+#~ msgstr ""
+#~ "<span style=\"color:red\">Sending av e-post til %s mislyktes</span><br/>"
+
+#~ msgid "%s of %s mails sent successfully.<br/><br/>"
+#~ msgstr "%s av %s e-poster er sendt.<br/><br/>"
+
+#~ msgid "The following %s failed:<br/>"
+#~ msgstr "Følgende %s mislyktes:<br/>"
+
+#~ msgid "Geocaching i Norge logo"
+#~ msgstr "Geocaching i Norge-logo"
+
+#~ msgid "Norsk er valgt"
+#~ msgstr "Norsk er valgt"
+
+#~ msgid "Switch to English"
+#~ msgstr "Switch to English"
+
+#~ msgid "Bytt til norsk"
+#~ msgstr "Bytt til norsk"
+
+#~ msgid "English is selected"
+#~ msgstr "English is selected"
+
+#~ msgid "Unknown error"
+#~ msgstr "Ukjent feil"
+
+#~ msgid ""
+#~ "You must be <a href=\"%slogin.php\">logged in</a> to access this page."
+#~ msgstr ""
+#~ "Du må være <a href=\"%slogin.php\">innlogget</a> for å få tilgang til "
+#~ "denne siden."
+
+#~ msgid "This error should not have ocurred. It did anyway."
+#~ msgstr "Denne feilen skulle ikke ha oppstått. Det gjorde den altså likevel."
+
+#~ msgid "You don't have access to this page."
+#~ msgstr "Du har ikke tilgang til denne siden."
+
+#~ msgid ""
+#~ "Username already in use by someone else. Please choose another username."
+#~ msgstr ""
+#~ "Brukernavnet er allerede i bruk av noen andre. Velg et annet brukernavn."
+
+#~ msgid "You must specify a username."
+#~ msgstr "Du må angi et brukernavn."
+
+#~ msgid ""
+#~ "E-mail address is already in use by someone else. Please choose another. "
+#~ "Also, remember that you can add more members from an existing account."
+#~ msgstr ""
+#~ "E-postadressen er allerede i bruk av noen andre. Velg en annen. Husk også "
+#~ "at du kan legge til flere medlemmer fra en eksisterende konto."
+
+#~ msgid "You must specify an e-mail address."
+#~ msgstr "Du må angi en e-postadresse."
+
+#~ msgid "You must specify a geocaching name."
+#~ msgstr "Du må angi et geocaching-navn."
+
+#~ msgid "You must specify a first name."
+#~ msgstr "Du må angi et fornavn."
+
+#~ msgid "You must specify a last name."
+#~ msgstr "Du må angi et etternavn."
+
+#~ msgid "You must specify an address."
+#~ msgstr "Du må angi en adresse."
+
+#~ msgid "You must specify a phone number."
+#~ msgstr "Du må angi et telefonnummer."
+
+#~ msgid "You must specify a birth date."
+#~ msgstr "Du må angi en fødselsdato."
+
+#~ msgid ""
+#~ "<div class='popoverhead'>Your geocaching name.</div>If you are a team of "
+#~ "more than one person, note that one membership pays one fee and receives "
+#~ "one vote. You can\n"
+#~ "                            however register more memberships. Please "
+#~ "write details about all people in your nick in the User comments."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Geocachingnavnet ditt.</div>Hvis dere er en "
+#~ "gruppe på flere personer, er det verd å merke seg at ett medlemskap "
+#~ "betaler én kontingent og får\n"
+#~ "                            én stemme. Skriv inn detaljer om alle "
+#~ "personene i gruppen, i feltet Brukerkommentarer."
+
+#~ msgid ""
+#~ "<div class='popoverhead'>Your birth date.</div>Knowing how many members "
+#~ "we have in each age\n"
+#~ "                segment, which is needed for some kinds of funding. Also, "
+#~ "there is an age limit for membership fees."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Fødselsdatoen din.</div>Vi trenger å vite "
+#~ "fordelingen i ulike aldersgrupper\n"
+#~ "                for å kunne søke om visse typer støtte. I tillegg har vi "
+#~ "aldersgrense for kontingentplikt."
+
+#~ msgid "You must specify a password."
+#~ msgstr "Du må angi et passord."
+
+#~ msgid "You must repeat you password here."
+#~ msgstr "Du må gjenta passordet her."
+
+#~ msgid "Your new submember has been added as a member of %s:"
+#~ msgstr "Ditt nye undermedlem er lagt til som medlem av %s:"
+
+#~ msgid "Username:        "
+#~ msgstr "Brukernavn:"
+
+#~ msgid "Geocaching name: "
+#~ msgstr "Geocaching-navn:"
+
+#~ msgid "Full name:       "
+#~ msgstr "Fullt navn:"
+
+#~ msgid ""
+#~ "Only the username, geocaching name, member number and registration date "
+#~ "will always"
+#~ msgstr ""
+#~ "Bare brukernavn, geocaching-navn, medlemsnummer og innmeldingsdato vil "
+#~ "alltid"
+
+#~ msgid "be visible to others."
+#~ msgstr "være synlig for andre."
+
+#~ msgid ""
+#~ "To make any other information visible to other members, please log in and "
+#~ "go to"
+#~ msgstr ""
+#~ "Hvis du vil gjøre annen informasjon synlig for andre medlemmer, logger du "
+#~ "inn og går til"
+
+#~ msgid "\"My details\", and review the settings under \"Privacy\"."
+#~ msgstr "\"Mine detaljer\" og ser over innstillingene under \"Personvern\"."
+
+#~ msgid "New submember in %s added"
+#~ msgstr "Nytt undermedlem lagt til i %s"
+
+#~ msgid "<li>Your member number</li>"
+#~ msgstr "<li>Medlemsnummeret ditt</li>"
+
+#~ msgid "<li>A flag indicating whether or not you are a board member </li>"
+#~ msgstr "<li>Et flagg som angir om du er styremedlem eller ei</li>"
+
+#~ msgid ""
+#~ "<div class='popoverhead'>Your birth date.</div>Knowing how many members "
+#~ "we have in each age\n"
+#~ "                segment, which is needed for some kinds of funding."
+#~ msgstr ""
+#~ "<div class='popoverhead'>Fødselsdatoen din.</div>Vi trenger å vite "
+#~ "fordelingen i ulike aldersgrupper\n"
+#~ "                for å kunne søke om visse typer støtte."
+
+#~ msgid "All users (active members+inactive users)"
+#~ msgstr "Alle brukere (aktive medlemmer+inaktive brukere)"
+
+#~ msgid "Active members with password"
+#~ msgstr "Aktive medlemmer med passord"
+
+#~ msgid "Active members without password"
+#~ msgstr "Aktive medlemmer uten passord"
+
+#~ msgid "Send to actual recipients"
+#~ msgstr "Send til faktiske mottakere"
+
+#~ msgid ""
+#~ "(Note: Only the mail for the first recipient will be sent to this address)"
+#~ msgstr ""
+#~ "(Merk: Bare e-posten til den første mottakeren vil bli sendt til denne "
+#~ "adressen)"
+
+#~ msgid "Reminder about unpaid fees"
+#~ msgstr "Kontingentpåminnelse"
+
+#~ msgid "Warning about deletion of account"
+#~ msgstr "Advarsel om utmelding"
+
+#~ msgid ""
+#~ "<strong>Error:</strong> The confirmation link may have been used already."
+#~ msgstr ""
+#~ "<strong>Feil:</strong> Bekreftelseslenken kan ha blitt brukt allerede."
+
+#~ msgid "Oh no!"
+#~ msgstr "Å, nei!"
+
+#~ msgid ""
+#~ "We couldn't find your record. Please register again <a href=\"%sregister."
+#~ "php\">here</a>."
+#~ msgstr ""
+#~ "Vi finner ikke oppføringen. Registrer deg på nytt  <a href=\"%sregister."
+#~ "php\">her</a>."
+
+#~ msgid "Oops!"
+#~ msgstr "Ojda!"
+
+#~ msgid ""
+#~ "You have already validated your e-mail. You can <a href=\"%slogin.php"
+#~ "\">log in here</a>."
+#~ msgstr ""
+#~ "Du har allerede validert e-postadressen din. Du kan <a href=\"%slogin.php"
+#~ "\">logge inn her</a>."
+
+#~ msgid "New member registration"
+#~ msgstr "Innmelding av nytt medlem"
+
+#~ msgid "Percentage"
+#~ msgstr "Andel"
+
+#~ msgid ""
+#~ "Frozen members are marked in <span class=\"bg-danger\">red</span>.<br/>"
+#~ msgstr ""
+#~ "Utmeldte medlemmer er merket med <span class=\"bg-danger\">rødt</span>."
+#~ "<br/>"
+
+#~ msgid ""
+#~ "Your record is marked in <span class=\"bg-success\">green</span>.<br/>"
+#~ msgstr ""
+#~ "Din egen oppføring er merket med <span class=\"bg-success\">grønt</span>."
+#~ "<br/>"
+
+#~ msgid ""
+#~ "<br/>Text in <span style=\"color:red\">red</span> is visible to board "
+#~ "members only, and should not be disclosed."
+#~ msgstr ""
+#~ "<br/><span style=\"color:red\">Rød</span> tekst er bare synlig for "
+#~ "styremedlemmer og skal ikke oppgis til andre."
+
+#~ msgid ""
+#~ "Changed <strong>%1$s</strong> table field <strong>%2$s</strong> from "
+#~ "<strong>%3$s</strong> to <strong>%4$s</strong>"
+#~ msgstr ""
+#~ "Endret feltet <strong>%2$s</strong> fra <strong>%3$s</strong> til <strong>"
+#~ "%4$s</strong> i tabellen <strong>%1$s</strong>"
+
+#~ msgid ""
+#~ "Added to the <strong>%1$s</strong> table the field <strong>%2$s</strong> "
+#~ "value <strong>%3$s</strong>"
+#~ msgstr ""
+#~ "La til verdien <strong>%3$s</strong> i feltet <strong>%2$s</strong> i "
+#~ "tabellen <strong>%1$s</strong> "
+
+#~ msgid "Current period is marked in <span class="
+#~ msgstr "Inneværende periode er merket med <span class="
+
+#~ msgid "If you didn't register at "
+#~ msgstr "Hvis du ikke har registrert deg på "
+
+#~ msgid "validate.php?h="
+#~ msgstr "validate.php?h="

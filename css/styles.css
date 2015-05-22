@@ -1,0 +1,127 @@
+h3 {
+    margin-left:-15px;
+    padding-bottom:2px;
+    margin-bottom:15px;
+    background-color:white;
+    color:black;
+    border-bottom:black solid 5px;
+}
+h5 {
+    font-weight:bolder;
+    padding-bottom:2px;
+    margin-bottom:10px;
+    border-bottom:black dotted 2px;
+}
+td.nowrap {
+    white-space:nowrap;
+}
+.varlinks {
+    cursor:pointer;
+    border-left: transparent solid 5px;
+    padding-left:5px;
+}
+.varlinks:link {
+    color:black;
+    text-decoration:none;
+}
+.varlinks:visited {
+    color:black;
+}
+.varlinks:hover {
+    text-decoration:none;
+    color: red;
+    border-left: red solid 5px;
+}
+.varlinks:active {
+    color:black;
+}
+.selectednor {
+    height:16px;
+    width:22px;
+    background-image:url(http://medlem2.geobergen.no/img/Norway_color.png);
+    border:none;
+    cursor:default;
+    display:inline-block;
+}
+.selectednor:hover {
+    background-image:url(http://medlem2.geobergen.no/img/Norway_color.png);
+}
+.selecteduk {
+    height:16px;
+    width:32px;
+    background-image:url(http://medlem2.geobergen.no/img/UK_color.png);
+    border:none;
+    cursor:default;
+    display:inline-block;
+}
+.selecteduk:hover {
+    background-image:url(http://medlem2.geobergen.no/img/UK_color.png);
+}
+.unselectednor {
+    height:16px;
+    width:22px;
+    background-image:url(http://medlem2.geobergen.no/img/Norway_mono.png);
+    border:none;
+    display:inline-block;
+}
+.unselectednor:hover {
+    background-image:url(http://medlem2.geobergen.no/img/Norway_color.png);
+}
+.unselecteduk {
+    height:16px;
+    width:32px;
+    background-image:url(http://medlem2.geobergen.no/img/UK_mono.png);
+    border:none;  
+    display:inline-block;
+}
+.unselecteduk:hover {
+    background-image:url(http://medlem2.geobergen.no/img/UK_color.png);
+}
+#userMenu {
+    margin-left:0px;
+}
+.registerbox {
+    border:none;
+    background-color:white;
+    border-radius:15px;
+    padding:10px;
+    margin-top:50px;
+}
+.form-group h4 {
+    padding-top:10px;
+    margin-left:20px;
+    border-bottom:silver solid 2px;
+}
+.popoverhead {
+    font-weight:bolder;
+    border-bottom:silver solid 1px;
+}
+.form-group {
+    margin-bottom:10px;
+}
+.errormsg {
+    color: red;
+}
+th {
+    padding-left:10px;
+}
+th.header {
+    cursor:pointer;
+    background-image: url(/img/sortnone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px !important;
+}
+th.headerSortUp { 
+    background-image: url(/img/sortup.png); 
+} 
+th.headerSortDown { 
+    background-image: url(/img/sortdn.png); 
+}
+li.active a {
+    color: black;
+    font-weight:bolder;
+    text-decoration:none;
+    cursor:default;
+    pointer-events:none;
+}
