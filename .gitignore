@@ -21,6 +21,9 @@ $RECYCLE.BIN/
 *.mo
 *.po
 
+# Config file
+core/config.php
+
 # =========================
 # Operating System Files
 # =========================
