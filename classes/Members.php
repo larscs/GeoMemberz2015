@@ -231,7 +231,7 @@ class Members {
                 }
     		}
     		
-    		$mail->AddEmbeddedImage('img/logo_mail.png','logo_mail.png','logo_mail.png','base64','image/png');
+    		$mail->AddEmbeddedImage('img/logo_banner_hori_lite_153x30.png','logo_banner.png','logo_banner.png','base64','image/png');
     
     		$mail->From = $from;
     		$mail->FromName = $fromname;
