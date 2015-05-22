@@ -212,8 +212,15 @@
                                     <option value="4"><?=_("All members excluding any submembers")?></option>
                                     <option value="5"><?=_("Primary members having submembers only")?></option>
                                     <option value="6"><?=_("Submembers only (excluding their parents)")?></option>
+<?php
+    // Display the age based filters only if there is an age limit in place
+    if(Config::get('feeagelimit')>0) {
+?>
                                     <option value="7"><?=sprintf(_("Members over the age of %s"),Config::get('feeagelimit'))?></option>
                                     <option value="8"><?=sprintf(_("Members under age of %s"),Config::get('feeagelimit'))?></option>
+<?php
+}
+?>
                                     <option value="9"><?=_("Members with incomplete member data")?></option>
                                     <option value="10"><?=_("Yourself (for testing)")?></option>
                                 </select>
