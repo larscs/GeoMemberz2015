@@ -146,7 +146,7 @@ $memb = Members::getInstance();						            // Use this on all pages using 
     $paymentextras = "";
   } else {
     $paymentdetails = "<span style=\"color:red\">"._("Unpaid")."</span>";
-    $paymentextras = "<br/><br/>".sprintf(_("Please pay kr. %s into %s's account no. %s."),"<strong>".$feeperiodamount."</strong>","<strong>".Config::get('assocname')."</strong>","<strong>".Config::get('assocbank')."</strong>");
+    $paymentextras = "<br/><br/>".sprintf(_("Please pay the fee of kr. %s into %s's account no. %s."),"<strong>".$feeperiodamount."</strong>","<strong>".Config::get('assocname')."</strong>","<strong>".Config::get('assocbank')."</strong>");
   }
   ?>
               <div class="panel panel-success">
