@@ -1,6 +1,6 @@
 	<footer class="text-center" style="margin-right:40px">
 		<img src="/img/geomemberz150w.png" alt="GeoMemberz" style="margin-bottom:15px"/>
-		<span style=""><em><?=_("Version")?> 1.1</em> &bullet; &copy; 2015 <a href="http://www.geobergen.no/">GeoBergen</a></span><br />
+		<span style=""><em><?=_("Version")?> 1.1.2</em> &bullet; &copy; 2015 <a href="http://www.geobergen.no/">GeoBergen</a></span><br />
 		<a href="tou.php"><?=_("Terms of Use")?></a> | <a href="privacy.php"><?=_("Privacy")?></a>
 		&bullet; <?=_("Built using")?>
 		<a href="http://getbootstrap.com/">Bootstrap</a>, 

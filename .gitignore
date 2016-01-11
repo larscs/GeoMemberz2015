@@ -18,8 +18,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # Gettext files
-*.mo
-*.po
+#*.mo
+#*.po
 
 # Config file
 core/config.php
