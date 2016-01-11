@@ -6,7 +6,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a href="http://www.geobergen.no/"><img src="<?= Config::get('logo30') ?>" alt="<?= Config::get('assocname')._(" logo")?>" style="float:left;margin-top:11px;margin-right:10px"/></a>
+      <a href="<?php echo Config::get('baseaddr') ?>"><img src="<?= Config::get('logo30') ?>" alt="<?= Config::get('assocname')._(" logo")?>" style="float:left;margin-top:11px;margin-right:10px"/></a>
       <span class="navbar-brand" style="margin-top:5px;cursor:default"><?=_("Member pages")?></span>
     </div>
     <div class="navbar-collapse collapse">

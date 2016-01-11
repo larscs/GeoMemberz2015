@@ -113,7 +113,7 @@ class Members {
 					// One record, check that hash matches password
 					$check = $t_hasher->CheckPassword($password,$this->_results[0]["password"]);
 					if($check) {
-						// Hash matches, return userID, hash active and the validationok field
+						// Hash matches, return userID, hash, active and the validationok field
 						return Array("userID"=>$this->_results[0]["membernum"],"userhash"=>$this->_results[0]["password"],"validationok"=>$this->_results[0]["validationok"],"active"=>$this->_results[0]["active"]);
 					}
 					return false;
@@ -233,7 +233,7 @@ class Members {
                 }
     		}
     		
-    		$mail->AddEmbeddedImage('img/logo_banner_hori_lite_153x30.png','logo_banner.png','logo_banner.png','base64','image/png');
+    		$mail->AddEmbeddedImage('img/logo_mail.png','logo_mail.png','logo_mail.png','base64','image/png');
     
     		$mail->From = $from;
     		$mail->FromName = $fromname;
