@@ -1,6 +1,6 @@
 <?php 
 $GLOBALS['config'] = array(
-	'sqlhost' => 'geobergen.no', //'127.0.0.1',
+	'sqlhost' => '127.0.0.1',
     'sqlport' => '3306',
 	'sqluser' => 'geobelxg_website',
 	'sqlpw'   => 'Groundspeak!',
@@ -38,6 +38,5 @@ $GLOBALS['config'] = array(
 	'cleanbaseaddr' => 'medlem.geobergen.no',
 	'logo50'		=> '/img/logo.png',          // 50 px high logo, light background
 	'logo30'		=> '/img/logo_banner.png',   // 30 px high logo, dark background
-	'logomail'      => '/img/logo_mail.png',     // 30 px high logo, light background    
 	'favicon' 		=> '/img/favicon.png',
 );

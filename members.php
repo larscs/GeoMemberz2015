@@ -90,11 +90,11 @@ if(!Input::getPost('showinactive')) {
       	<div class="alert alert-warning">
             <?=_("Your record is marked in <span class=\"bg-success\">green</span>.")?> <?=_("Text marked in <span style=\"color:red\">red</span> on your own record, means they are undisclosed.")?><br/>
             <?=_("Your submembers, if any, are marked in <span class=\"bg-info\">blue</span>.")?><br/>
-            <?=_("Frozen members are marked in <span class=\"bg-danger\">red</span>.")?><br/>
             
 <?php
     if($memb->isBoard()) {
 ?>
+            <?=_("Frozen members are marked in <span class=\"bg-danger\">red</span>.")?><br/>
             <br/>
             <?=_("Text in <span style=\"color:red\">red</span> is visible to board members only, and should not be disclosed.")?>
 

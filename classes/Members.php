@@ -113,8 +113,8 @@ class Members {
 					// One record, check that hash matches password
 					$check = $t_hasher->CheckPassword($password,$this->_results[0]["password"]);
 					if($check) {
-						// Hash matches, return userID, hash and the validationok field
-						return Array("userID"=>$this->_results[0]["membernum"],"userhash"=>$this->_results[0]["password"],"validationok"=>$this->_results[0]["validationok"]);
+						// Hash matches, return userID, hash active and the validationok field
+						return Array("userID"=>$this->_results[0]["membernum"],"userhash"=>$this->_results[0]["password"],"validationok"=>$this->_results[0]["validationok"],"active"=>$this->_results[0]["active"]);
 					}
 					return false;
 					break;
@@ -129,7 +129,8 @@ class Members {
 		// Query failed, return false
 		echo "Query failed with the following error message: ";
 		echo "<pre>";
-		echo $this->_query->errorInfo()[2];
+		$errmsg = $this->_query->errorInfo();
+        echo $errmsg[2];
 		echo "</pre>";
 		exit();
 		return false;
@@ -168,7 +169,8 @@ class Members {
 		// Query failed, return false
 		echo "Query failed with the following error message: ";
 		echo "<pre>";
-		echo $this->_query->errorInfo()[2];
+		$errmsg = $this->_query->errorInfo();
+        echo $errmsg[2];
 		echo "</pre>";
 		exit();
 		return false;
@@ -231,7 +233,7 @@ class Members {
                 }
     		}
     		
-    		$mail->AddEmbeddedImage('img/logo_mail.png','logo_mail.png','logo_mail.png','base64','image/png');
+    		$mail->AddEmbeddedImage('img/logo_banner_hori_lite_153x30.png','logo_banner.png','logo_banner.png','base64','image/png');
     
     		$mail->From = $from;
     		$mail->FromName = $fromname;
@@ -584,10 +586,27 @@ class Members {
 	public function getPaymentsList($perID,$showinactive) {
 		$members = Config::get('sqlprefix')."members";
 		$payments = Config::get('sqlprefix')."feepayments";	
-		$perenddate = $this->getFeePeriod($perID)['perTo'];
+		$tempvar = $this->getFeePeriod($perID);
+        $perenddate = $tempvar['perTo'];
 		$q = "SELECT * FROM {$members} LEFT JOIN {$payments} ON membernum=paymentMember AND paymentPeriod={$perID} WHERE membersince < '{$perenddate}'";
 		if(!$showinactive) $q .= " AND active";
 		$this->_query = $this->_pdo->prepare($q);
+		if(!$this->_query->execute()) { return false; }
+		$this->_results = $this->_query->fetchAll(PDO::FETCH_ASSOC);
+		return $this->_results;
+	}
+
+	public function getCurrentPayingMembers() {
+		//Find current payment period
+        $tempvar = $this->getCurrentFeePeriodData();
+        $perID = $tempvar["perID"];
+        $members = Config::get('sqlprefix')."members";
+		$payments = Config::get('sqlprefix')."feepayments";	
+		$tempvar = $this->getFeePeriod($perID);
+        $perenddate = $tempvar['perTo'];
+		//$q = "SELECT * FROM {$members} LEFT JOIN {$payments} ON membernum=paymentMember AND paymentPeriod={$perID} WHERE membersince < '{$perenddate}' AND active AND paymentID ORDER BY lastname";
+        $q = "SELECT * FROM {$members} LEFT JOIN {$payments} ON membernum=paymentMember AND paymentPeriod=3 WHERE membersince < '2016-12-31' AND active AND paymentID ORDER BY lastname";
+        $this->_query = $this->_pdo->prepare($q);
 		if(!$this->_query->execute()) { return false; }
 		$this->_results = $this->_query->fetchAll(PDO::FETCH_ASSOC);
 		return $this->_results;
@@ -730,6 +749,14 @@ class Members {
         }
         return false;
     }
+	public function runSearchQuery($field,$operator,$query) {
+		$table = Config::get('sqlprefix')."members";
+		$this->_query = $this->_pdo->prepare("SELECT membernum, username, gcnick, firstname, middlename, lastname, active FROM {$table} WHERE {$field} {$operator} ?");
+		$this->_query->bindValue(1, $query);
+		if(!$this->_query->execute()) { return false; }
+		$this->_results=$this->_query->fetchAll(PDO::FETCH_ASSOC);
+        return $this->_results;
+	}    
 	public function customQuery($sql) {
 		// Returns the result of a custom query in an array, or false.
 		$this->_query = $this->_pdo->prepare($sql);
@@ -805,7 +832,8 @@ class Members {
         $varsubmembernos = $this->db2membernolist("SELECT membernum FROM ".Config::get('sqlprefix')."viewages WHERE parent = ".$recipient["membernum"]);
         if(!$varsubmembernos) {$varsubmembernos = "";}            
         // Get sum of fees due for main member plus all submembers over 16 * $mycuramount
-        $mycuramount = $this->getCurrentFeePeriodData()["perAmount"];
+        $tempvar = $this->getCurrentFeePeriodData();
+        $mycuramount = $tempvar["perAmount"];
         $numsubs = $this->customQueryCount("SELECT * FROM ".Config::get('sqlprefix')."viewages WHERE age >= ".Config::get('feeagelimit')." AND parent = ".$recipient["membernum"]);
         $varamountdue    = number_format($mycuramount*(1+$numsubs),2,Config::get('dp'),Config::get('ts'));
         

@@ -45,6 +45,11 @@ class Session {
 				$this->errormsg = sprintf(_("<strong>Error:</strong> Account not yet validated. If you didn't receive the validation mail, please check your spam filter. Otherwise, contact us on <a href=\"mailto:%s?subject=%s\">%s</a>"),Config::get('autoemail'),_("Validation mail not received"),Config::get('autoemail'));
 				return false;
 			}
+			// Pop error if user exists, but is not a member
+			if(!$userinfo['active']) {
+				$this->errormsg = sprintf(_("<strong>Error:</strong> Your account exists, but is frozen. If you have paid your membership fee, please contact us on <a href=\"mailto:%s?subject=%s\">%s</a>"),Config::get('autoemail'),_("Account frozen"),Config::get('autoemail'));
+				return false;
+			}            
 			// Set session var
 
 			$_SESSION[Config::get('sessionprefix')."userID"] = $userinfo['userID'];

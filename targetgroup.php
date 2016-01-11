@@ -54,7 +54,11 @@ switch (Input::getGet('id')) {
         echo $memb->db2userlist("SELECT username,membernum FROM ".Config::get('sqlprefix')."members WHERE membernum = ".Session::getSessionVar('userID'));
         //echo "<span onClick=\"getPreview(".Session::getSessionVar('userID').")\" onMouseOver=\"this.style.color='#ff0000'\" onMouseOut=\"this.style.color='#000000'\" style=\"cursor:pointer\">".$memb->getUserDetail(Session::getSessionVar('userID'),'username')."</span>";
         break;        
-            
+    // 11 - Single member
+    case "11":
+        echo $memb->db2userlist("SELECT username,membernum FROM ".Config::get('sqlprefix')."members WHERE username = '".Input::getGet('username')."'");
+        //echo "<span onClick=\"getPreview(".Session::getSessionVar('userID').")\" onMouseOver=\"this.style.color='#ff0000'\" onMouseOut=\"this.style.color='#000000'\" style=\"cursor:pointer\">".$memb->getUserDetail(Session::getSessionVar('userID'),'username')."</span>";
+        break;             
 }
 
 

@@ -196,9 +196,9 @@
             </ul>
 <?php        
     } else {
+        $parentnum = $memb->getUserDetail($memberdata['parent'],'membernum');
+        $parentuser = $memb->getUserDetail($memberdata['parent'],'username');
         if($memberdata["membernum"]==Session::getSessionVar('userID')) {
-            $parentnum = $memb->getUserDetail($memberdata['parent'],'membernum');
-            $parentuser = $memb->getUserDetail($memberdata['parent'],'username');
 ?>
                 <div class="alert alert-info"> <?=sprintf(_("You are a submember of %s (member no. %s), so you cannot have your own submembers."),$parentuser,$parentnum)?></div>
 <?php

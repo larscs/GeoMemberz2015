@@ -14,6 +14,7 @@
             $userdetails = $_POST;      // Copy POST data to a new var
             unset($userdetails['reppassword']);         // remove, as this has been checked, and no DB field exists for this
             // Change and add necessary fields
+            $userdetails['email'] = trim($userdetails['email']);
             $userdetails['password'] = $t_hasher->HashPassword(Input::getPost('password'));
             $userdetails['validationhash'] = $valhash;
             $userdetails['validationok'] = 0;                                               // To prevent logging in before validated

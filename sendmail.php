@@ -26,6 +26,7 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery.js"></script>
 <?php
     // Read template files into array
     // Enumerate files in "mail" folder
@@ -95,7 +96,13 @@
                     range.select();
                 }
             }
-            function getTarget(targetId) {
+            function getTarget(targetId,singleuser) {
+                // If targetId is 11 (Single member), then just display that dropdown, otherwise hide it.
+                if(targetId==11) {
+                    document.getElementById("singlediv").style.display="block";
+                } else {
+                    document.getElementById("singlediv").style.display="none";
+                }
                 var xmlhttp;
                 if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
                    xmlhttp=new XMLHttpRequest();
@@ -127,7 +134,7 @@
                         }
                     }
                 }
-                xmlhttp.open("GET","targetgroup.php?id="+targetId,true);
+                xmlhttp.open("GET","targetgroup.php?id="+targetId+"&username="+encodeURIComponent(singleuser),true);
                 xmlhttp.send();
             }
             function getPreview(targetId) {
@@ -152,9 +159,175 @@
             function clearPreview() {
                 document.getElementById("preview").innerHTML="<center><em><?=_("Click on a member name above to display a preview for that member's mail")?></em></center>";
             }
+            function autoMember(querytext) {
+                // text changed; reset target group list first
+                document.getElementById("targetspan").innerHTML="<em><?=_("Your currently selected target group contains no members.")?></em>";
+                document.getElementById("memberpreview").innerHTML="";
+                document.getElementById("nummembs2").innerHTML=0;
+                if(querytext.length==0) {
+                    $('#suggestions').html('');
+                } else {
+                    // send querytext to automember.php
+                    var xmlhttp;
+                    if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+                       xmlhttp=new XMLHttpRequest();
+                    } else {// code for IE6, IE5
+                       xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    xmlhttp.onreadystatechange=function(){
+                        if(xmlhttp.responseText=="") {
+                            // No hit; remove open suggestion box
+                            $('#suggestions').html('')
+                        } else {
+                            // Hit; put json encoded hits into div "suggestions"
+                            var suggs = jQuery.parseJSON(xmlhttp.responseText);
+                            $('#suggestions').html('');
+                            $(suggs).each(function(key, value) {
+                                
+                                
+                                $('#suggestions').append(value.memberdetails);
+                                //$('#suggestions').append('<div class="suggestion" onclick="selectSugg(this)" data-username="'+value.username+'">' + value.memberdetails + '</div>');    
+                            })
+                        }
+                    }
+                    xmlhttp.open("GET","automember.php?q="+encodeURIComponent(querytext),true);
+                    xmlhttp.send();
+                }
+            }
+            function selectSugg(item) {
+                // Set the input field value to the username
+                document.getElementById('singlename').value=item.getAttribute("data-username");
+                // Close the suggestions box
+                $('#suggestions').html('')
+                document.getElementById('target').onchange();
+                
+            }
+            function suggkey(e) {
+                var keycode
+                if(window.event) {
+                    keycode = e.keyCode;
+                } else if(e.which) {
+                    keycode = e.which;
+                }
+                if(keycode==40) {
+                    // down key - find if any item is selected
+                    var sel = -1;
+                    var list=document.getElementById('suggestions');
+                    var node = list.firstChild;
+                    var i = 0;
+                    var frz = [];
+                    while(node) {
+                        
+                        if(node.className=="suggestion selected"||node.className=="suggestion frozen selected") {
+                            sel = i;
+                        }
+                        if(node.className=="suggestion frozen selected"||node.className=="suggestion frozen") {
+                            frz[i]=true;
+                        }
+                        node = node.nextSibling;
+                        i++;
+                    }
+                    
+                    if(sel==-1) {
+                        // None already selected, select the first
+                        if(frz[0]) {
+                            document.getElementById('suggestions').firstElementChild.className="suggestion frozen selected";
+                        } else {
+                            document.getElementById('suggestions').firstElementChild.className="suggestion selected";
+                        }
+                    } else {
+                        // Only select the next if we're not already at the bottom or the next has data-username 0
+                        if(list.childNodes[sel]!=list.lastChild && list.childNodes[sel+1].getAttribute("data-username")!="0")
+                            // Remove selection
+                            if(frz[sel]) {
+                                list.childNodes[sel].className="suggestion frozen";
+                            } else {
+                                list.childNodes[sel].className="suggestion";
+                            }
+                            // Select the next one
+                            if(sel+1<i && list.childNodes[sel+1].getAttribute("data-username")!="0") {
+                                if(list.childNodes[sel+1].className=="suggestion frozen") {
+                                    list.childNodes[sel+1].className="suggestion frozen selected";
+                                } else {
+                                    list.childNodes[sel+1].className="suggestion selected";
+                                }
+                            }
+                    }
+                }
+                if(keycode==38) {
+                    // up key - find if any item is selected
+                    var sel = -1;
+                    var list=document.getElementById('suggestions');
+                    var node = list.firstChild;
+                    var i = 0;
+                    var frz = [];
+                    while(node) {
+                        
+                        if(node.className=="suggestion selected"||node.className=="suggestion frozen selected") {
+                            sel = i;
+                        }
+                        if(node.className=="suggestion frozen selected"||node.className=="suggestion frozen") {
+                            frz[i]=true;
+                        }
+                        node = node.nextSibling;
+                        i++;
+                    }
+                    
+                    if(sel==-1) {
+                        // None already selected, select the last
+                        if(frz[i]) {
+                            document.getElementById('suggestions').lastElementChild.className="suggestion frozen selected";
+                        } else {
+                            document.getElementById('suggestions').lastElementChild.className="suggestion selected";
+                        }
+                    } else {
+                        // Only select the next if we're not already at the bottom or the next has data-username 0
+                        if(list.childNodes[sel]!=list.firstChild && list.childNodes[sel-1].getAttribute("data-username")!="0")
+                            // Remove selection
+                            if(frz[sel]) {
+                                list.childNodes[sel].className="suggestion frozen";
+                            } else {
+                                list.childNodes[sel].className="suggestion";
+                            }
+                            // Select the next one
+                            if(sel-1<i && list.childNodes[sel-1].getAttribute("data-username")!="0") {
+                                if(list.childNodes[sel-1].className=="suggestion frozen") {
+                                    list.childNodes[sel-1].className="suggestion frozen selected";
+                                } else {
+                                    list.childNodes[sel-1].className="suggestion selected";
+                                }
+                            }
+                    }
+                } 
+                if(keycode==9 || keycode==13) {     // tab or enter
+                    // Find the selected suggestion
+                    var sel = -1;
+                    var list=document.getElementById('suggestions');
+                    var node = list.firstChild;
+                    var i = 0;
+                    while(node) {
+                        
+                        if(node.className=="suggestion selected"||node.className=="suggestion frozen selected") {
+                            sel = i;
+                        }
+                        node = node.nextSibling;
+                        i++;
+                    } 
+                    if(sel > -1) {
+                        selectSugg(list.childNodes[sel]);    
+                    } 
+                    if(sel = -1) {
+                        // Search for whatever is in the box when exiting, if none are selected
+                        getTarget(11,document.getElementById('singlename').value);
+                    } 
+                    // Close the suggestions box
+                    $('#suggestions').html('')                                     
+                    
+                }              
+            }
         </script>
         </head>
-	<body onload="getTarget(1)">
+	<body onload="getTarget(1,'')">
 <!-- Header -->
 <?php
  include_once "includes/headerbar.php";
@@ -205,27 +378,32 @@
                         <div class="form-group">
                             <label for="target" class="col-sm-3 control-label" style="margin-top:5px"><?=_("Target group:")?></label>
                             <div class="col-sm-9">
-                                <select class="form-control" name="target" id="target" onchange="getTarget(this.value);">
+                                <select class="form-control" style="cursor:default" name="target" id="target" onchange="getTarget(this.value,document.getElementById('singlename').value);">
                                     <option value="1"><?=_("All members")?></option>
                                     <option value="2"><?=_("Inactive (frozen) members")?></option>
                                     <option value="3"><?=_("Primary members owing fee for current period")?></option>
                                     <option value="4"><?=_("All members excluding any submembers")?></option>
                                     <option value="5"><?=_("Primary members having submembers only")?></option>
                                     <option value="6"><?=_("Submembers only (excluding their parents)")?></option>
-<?php
-    // Display the age based filters only if there is an age limit in place
-    if(Config::get('feeagelimit')>0) {
-?>
                                     <option value="7"><?=sprintf(_("Members over the age of %s"),Config::get('feeagelimit'))?></option>
                                     <option value="8"><?=sprintf(_("Members under age of %s"),Config::get('feeagelimit'))?></option>
-<?php
-}
-?>
                                     <option value="9"><?=_("Members with incomplete member data")?></option>
                                     <option value="10"><?=_("Yourself (for testing)")?></option>
+                                    <option value="11"><?=_("Single member")?></option>
                                 </select>
                             </div>
                         </div>
+                        <div class="form-group" id="singlediv" style="display:block">
+                            <div class="form-group">
+                                <label for="singlename" class="col-sm-3 control-label" style="margin-top:5px;white-space:nowrap"><?=_("Single recipient:")?></label>
+                                <div class="col-sm-9" style="position:relative">
+                                    <input type="text" class="form-control" name="singlename" list="suggestions" id="singlename" placeholder="<?=_("Start typing here")?>" oninput="autoMember(this.value);" onkeydown="suggkey(event);"/>
+                                    <div id="suggestions">
+                                    </div>
+                                </div>
+
+                            </div>                               
+                        </div>                                                                       
                         <label for="body" class="col-sm-3 control-label" style="margin-top:5px"><?=_("Mail body:")?></label>
                         <textarea onkeyup="clearPreview();" class="form-control" rows="15" name="body" id="body"></textarea>
                         <br/>

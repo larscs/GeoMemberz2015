@@ -177,7 +177,7 @@
          
 ?>
             </select>
-            <span style="margin-left:10px"><?php echo _("Fee amount for this period: ")." <strong>".number_format($perfeeamount,0,Config::get('dp'),Config::get('ts'))."</strong>" ?></span>
+            <span style="margin-left:10px"><? echo _("Fee amount for this period: ")." <strong>".number_format($perfeeamount,0,Config::get('dp'),Config::get('ts'))."</strong>" ?></span>
         </form>
         <form class="form-inline" id="activeform" role="form" method="post" style="clear:right;float:right">
         <input type="checkbox" name="showinactive" <?php if($showinactive) echo "checked=\"checked\""; ?> onclick="document.getElementById('activeform').submit();"/> <?php echo _("Also show inactive members") ?>

@@ -61,6 +61,10 @@
             case "10":
                 $targetarray = $memb->db2array("SELECT membernum, username, firstname, middlename, lastname, email FROM ".Config::get('sqlprefix')."members WHERE membernum = ".Session::getSessionVar('userID'));
                 break;
+            // 11 - Single member
+            case "11":
+                $targetarray = $memb->db2array("SELECT membernum, username, firstname, middlename, lastname, email FROM ".Config::get('sqlprefix')."members WHERE username = '".Input::getPost('singlename')."'");
+                break; 
 	    }
 	    $numrecips = count($targetarray);
 	    $recipno = 0;

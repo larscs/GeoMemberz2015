@@ -125,3 +125,43 @@ li.active a {
     cursor:default;
     pointer-events:none;
 }
+#suggestions {
+    font-size: 0.8em;
+    position: absolute;
+    border: none;
+    background-color: white;
+    border-radius:5px;
+    white-space:nowrap;
+    z-index:100;
+    width:350px;
+    box-shadow: 1px 1px 5px black;
+}
+#suggestions .suggestion {
+    margin:0px;
+    padding:2px;
+    padding-left:5px;
+    border-bottom: 1px solid silver;
+}
+#suggestions .suggestion:last-child {
+    border-bottom: none;
+}
+#suggestions .suggestion:hover {
+    background-color:#d0d0FF;
+    cursor:pointer;
+}
+#suggestions .selected {
+    background-color:#d0d0FF;
+}
+#suggestions .overflow {
+    background-color:white;
+    color:Red;
+    font-weight:bold;
+    text-align:center;
+}
+#suggestions .overflow:hover {
+    background-color:white;
+    cursor:default;
+}
+#suggestions .frozen {
+    color:silver;
+}

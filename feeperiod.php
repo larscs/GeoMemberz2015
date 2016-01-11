@@ -1,5 +1,4 @@
 <?php
-    // This is a comment
 	require_once 'core/init.php';                         // Must be present on all pages using settings and classes
 	if(!Session::isLoggedIn()) {Session::redirect(404);}  // Use this on all pages requiring the user to be logged in
 	$memb = Members::getInstance(); 			            // Use this on all pages using the database
